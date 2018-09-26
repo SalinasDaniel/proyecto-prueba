@@ -1,0 +1,26 @@
+body{
+    header{
+        .logo-contact{
+            text-align: center;
+            margin-top: 71px;
+            .row{
+                .col-sm-6{
+                    .contact{
+                        margin-top: 46px;
+                        h1{
+                            font-size: 32px;
+                            color: #05283C;
+                            font-weight: 300;
+                            .fa-whatsapp{
+                                font-size: 16px;
+                                position: absolute;
+                                color: #25d366;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

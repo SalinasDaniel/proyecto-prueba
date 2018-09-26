@@ -1,0 +1,21 @@
+html body {
+  font-family: Montserrat; }
+
+body header .logo-contact {
+  text-align: center;
+  margin-top: 71px; }
+  body header .logo-contact .row .col-sm-6 .contact {
+    margin-top: 46px; }
+    body header .logo-contact .row .col-sm-6 .contact h1 {
+      font-size: 32px;
+      color: #05283C;
+      font-weight: 300; }
+      body header .logo-contact .row .col-sm-6 .contact h1 .fa-whatsapp {
+        font-size: 16px;
+        position: absolute;
+        color: #25d366;
+        font-weight: 600; }
+
+body header .headboard .row .col-sm-6 .image img {
+  width: 84%;
+  margin-top: -90px; }
