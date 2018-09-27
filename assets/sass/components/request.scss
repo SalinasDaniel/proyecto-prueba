@@ -1,0 +1,142 @@
+body {
+    main {
+        .request {
+            text-align: center;
+            margin-top: 25px;
+            @include breakpoint(desktop) {
+                margin-top: 181px;
+            }
+            @include breakpoint(tablet) {
+                margin-top: 100px;
+            }
+            .description {
+                position: absolute;
+                margin-top: 27px;
+                color: #F26739;
+                @include breakpoint (desktop) {
+                    margin-top: 50px;
+                    font-size: 32px;
+                    width: 28%;
+                    text-align: left;
+                    margin-left: 26%;
+                }
+                @include breakpoint (tablet) {
+                    margin-top: 50px;
+                    font-size: 32px;
+                    width: 47%;
+                    text-align: left;
+                    margin-left: 17%;
+                }
+                .text1 {
+                    font-weight: 900;
+                }
+                .text2 {
+                    font-weight: 400;
+                }
+                img {
+                    display: none;
+                    @include breakpoint(desktop) {
+                        margin-left: 18%;
+                        margin-top: 40px;
+                        display: block;
+                    }
+                    @include breakpoint(tablet) {
+                        margin-left: 18%;
+                        margin-top: 40px;
+                        display: block;
+                    }
+                }
+                hr {
+                    width: 100%;
+                    background-color: #E6E6FA;
+                    @include breakpoint(desktop) {
+                        display: none;
+                    }
+                    @include breakpoint(tablet) {
+                        display: none;
+                    }
+                }
+            }
+            canvas {
+                border: 1px solid #E6E6FA;
+                width: 100%;
+                border-radius: 20px;
+                height: 500px;
+                @include breakpoint(desktop) {
+                    width: 73%;
+                }
+                @include breakpoint(tablet) {
+                    width: 81%;
+                }
+            }
+            .line-vertical {
+                @include breakpoint(desktop) {
+                    border-left: 1px solid #E6E6FA;
+                    height: 500px;
+                    position: absolute;
+                    margin-left: 61%;
+                }
+                @include breakpoint(tablet) {
+                    border-left: 1px solid #E6E6FA;
+                    height: 500px;
+                    position: absolute;
+                    margin-left: 57%;
+                }
+            }
+        }
+        .form-request {
+            margin-left: 17%;
+            h2 {
+                position: absolute;
+                margin-top: 171px;
+                margin-left: -18%;
+                color: #05283C;
+                @include breakpoint(desktop) {
+                    margin-top: 54px;
+                    margin-left: 48%;
+                    width: 18%;
+                    text-align: left;
+                }
+                @include breakpoint(tablet) {
+                    margin-top: 54px;
+                    margin-left: 43%;
+                    width: 30%;
+                    text-align: left;
+                }
+            }
+            form {
+                position: absolute;
+                margin-top: 270px;
+                @include breakpoint(desktop) {
+                    margin-top: 178px;
+                    margin-left: 48%;
+                    width: 17%;
+                }
+                @include breakpoint(tablet) {
+                    margin-top: 220px;
+                    margin-left: 43%;
+                    width: 29%;
+                }
+                .form-control {
+                    @include breakpoint(desktop) {
+                        height: 51px;
+                    }
+                    @include breakpoint(tablet) {
+                        height: 51px;
+                    }
+                }
+                .btn-primary {
+                    background-color: #F37421;
+                    border-color: #F37421;
+                    width: 100%;
+                    @include breakpoint(desktop) {
+                        height: 51px;
+                    }
+                    @include breakpoint(tablet) {
+                        height: 51px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,10 +2,22 @@ html body {
   font-family: Montserrat; }
 
 body header .logo-contact {
-  text-align: center;
-  margin-top: 71px; }
+  margin-top: 71px;
+  text-align: center; }
+  @media (min-width: 1025px) {
+    body header .logo-contact {
+      text-align: left; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body header .logo-contact {
+      text-align: left; } }
   body header .logo-contact .row .col-sm-6 .contact {
     margin-top: 46px; }
+    @media (min-width: 1025px) {
+      body header .logo-contact .row .col-sm-6 .contact {
+        text-align: right; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body header .logo-contact .row .col-sm-6 .contact {
+        text-align: right; } }
     body header .logo-contact .row .col-sm-6 .contact h1 {
       font-size: 32px;
       color: #05283C;
@@ -16,6 +28,231 @@ body header .logo-contact {
         color: #25d366;
         font-weight: 600; }
 
-body header .headboard .row .col-sm-6 .image img {
-  width: 84%;
-  margin-top: -90px; }
+body header .headboard .row {
+  margin-right: 0; }
+  body header .headboard .row .col-sm-6 .description-headboard {
+    margin-top: 25px;
+    margin-left: 15%; }
+    @media (min-width: 1025px) {
+      body header .headboard .row .col-sm-6 .description-headboard {
+        text-align: left;
+        margin-left: 34%;
+        color: #05283C;
+        font-size: 32px;
+        margin-top: 130px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body header .headboard .row .col-sm-6 .description-headboard {
+        font-size: 25px; } }
+    body header .headboard .row .col-sm-6 .description-headboard .text1 {
+      font-weight: 300; }
+    body header .headboard .row .col-sm-6 .description-headboard hr {
+      margin-left: 0%;
+      width: 7%;
+      background: #F37421;
+      height: 1px; }
+  body header .headboard .row .image img {
+    margin-top: -60px;
+    margin-left: 3%; }
+    @media (min-width: 1025px) {
+      body header .headboard .row .image img {
+        margin-top: -169px;
+        margin-left: 0%; } }
+
+body main hr {
+  width: 85%; }
+
+body main .services .title {
+  color: #05283C;
+  margin-left: 7%; }
+  @media (min-width: 1025px) {
+    body main .services .title {
+      margin-left: 20%;
+      margin-top: 152px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .services .title {
+      margin-left: 20%;
+      margin-top: 152px; } }
+  body main .services .title h3 {
+    font-size: 18px;
+    font-weight: 300; }
+    @media (min-width: 1025px) {
+      body main .services .title h3 {
+        font-size: 32px;
+        text-align: center;
+        width: 69%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .services .title h3 {
+        font-size: 32px;
+        text-align: center;
+        width: 83%; } }
+
+body main .services .list-services {
+  margin-top: 40px;
+  text-align: center; }
+  @media (min-width: 1025px) {
+    body main .services .list-services {
+      margin-top: 100px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .services .list-services {
+      margin-top: 100px; } }
+  body main .services .list-services .row {
+    margin-right: 0; }
+    @media (min-width: 1025px) {
+      body main .services .list-services .row {
+        width: 70%;
+        margin-left: 13%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .services .list-services .row {
+        width: 70%;
+        margin-left: 13%; } }
+    body main .services .list-services .row .col-sm-3 img {
+      margin-bottom: 7px; }
+    body main .services .list-services .row .col-sm-3 h6 {
+      font-size: 22px;
+      width: 50%;
+      margin-left: 25%; }
+      @media (min-width: 1025px) {
+        body main .services .list-services .row .col-sm-3 h6 {
+          width: 78%;
+          margin-left: 13%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .services .list-services .row .col-sm-3 h6 {
+          width: 78%;
+          margin-left: 13%; } }
+    body main .services .list-services .row .col-sm-3 p {
+      font-size: 12px;
+      width: 50%;
+      margin-left: 25%; }
+      @media (min-width: 1025px) {
+        body main .services .list-services .row .col-sm-3 p {
+          width: 82%;
+          margin-left: 13%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .services .list-services .row .col-sm-3 p {
+          width: 82%;
+          margin-left: 13%; } }
+
+body main .request {
+  text-align: center;
+  margin-top: 25px; }
+  @media (min-width: 1025px) {
+    body main .request {
+      margin-top: 181px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .request {
+      margin-top: 100px; } }
+  body main .request .description {
+    position: absolute;
+    margin-top: 27px;
+    color: #F26739; }
+    @media (min-width: 1025px) {
+      body main .request .description {
+        margin-top: 50px;
+        font-size: 32px;
+        width: 28%;
+        text-align: left;
+        margin-left: 26%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .request .description {
+        margin-top: 50px;
+        font-size: 32px;
+        width: 47%;
+        text-align: left;
+        margin-left: 17%; } }
+    body main .request .description .text1 {
+      font-weight: 900; }
+    body main .request .description .text2 {
+      font-weight: 400; }
+    body main .request .description img {
+      display: none; }
+      @media (min-width: 1025px) {
+        body main .request .description img {
+          margin-left: 18%;
+          margin-top: 40px;
+          display: block; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .request .description img {
+          margin-left: 18%;
+          margin-top: 40px;
+          display: block; } }
+    body main .request .description hr {
+      width: 100%;
+      background-color: #E6E6FA; }
+      @media (min-width: 1025px) {
+        body main .request .description hr {
+          display: none; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .request .description hr {
+          display: none; } }
+  body main .request canvas {
+    border: 1px solid #E6E6FA;
+    width: 100%;
+    border-radius: 20px;
+    height: 500px; }
+    @media (min-width: 1025px) {
+      body main .request canvas {
+        width: 73%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .request canvas {
+        width: 81%; } }
+  @media (min-width: 1025px) {
+    body main .request .line-vertical {
+      border-left: 1px solid #E6E6FA;
+      height: 500px;
+      position: absolute;
+      margin-left: 61%; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .request .line-vertical {
+      border-left: 1px solid #E6E6FA;
+      height: 500px;
+      position: absolute;
+      margin-left: 57%; } }
+
+body main .form-request {
+  margin-left: 17%; }
+  body main .form-request h2 {
+    position: absolute;
+    margin-top: 171px;
+    margin-left: -18%;
+    color: #05283C; }
+    @media (min-width: 1025px) {
+      body main .form-request h2 {
+        margin-top: 54px;
+        margin-left: 48%;
+        width: 18%;
+        text-align: left; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .form-request h2 {
+        margin-top: 54px;
+        margin-left: 43%;
+        width: 30%;
+        text-align: left; } }
+  body main .form-request form {
+    position: absolute;
+    margin-top: 270px; }
+    @media (min-width: 1025px) {
+      body main .form-request form {
+        margin-top: 178px;
+        margin-left: 48%;
+        width: 17%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .form-request form {
+        margin-top: 220px;
+        margin-left: 43%;
+        width: 29%; } }
+    @media (min-width: 1025px) {
+      body main .form-request form .form-control {
+        height: 51px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .form-request form .form-control {
+        height: 51px; } }
+    body main .form-request form .btn-primary {
+      background-color: #F37421;
+      border-color: #F37421;
+      width: 100%; }
+      @media (min-width: 1025px) {
+        body main .form-request form .btn-primary {
+          height: 51px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .form-request form .btn-primary {
+          height: 51px; } }

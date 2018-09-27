@@ -1,0 +1,87 @@
+body {
+    main {
+        hr {
+            width: 85%;
+        }
+        .services {
+            .title {
+                color: #05283C;
+                margin-left: 7%;
+                @include breakpoint(desktop) {
+                    margin-left: 20%;
+                    margin-top: 152px;
+                }
+                @include breakpoint(tablet) {
+                    margin-left: 20%;
+                    margin-top: 152px;
+                }
+                h3 {
+                    font-size: 18px;
+                    font-weight: 300;
+                    @include breakpoint(desktop) {
+                        font-size: 32px;
+                        text-align: center;
+                        width: 69%;
+                    }
+                    @include breakpoint(tablet) {
+                        font-size: 32px;
+                        text-align: center;
+                        width: 83%;
+                    }
+                }
+            }
+            .list-services {
+                margin-top: 40px;
+                text-align: center;
+                @include breakpoint(desktop) {
+                    margin-top: 100px;
+                }
+                @include breakpoint(tablet) {
+                    margin-top: 100px;
+                }
+                .row {
+                    margin-right: 0;
+                    @include breakpoint(desktop) {
+                        width: 70%;
+                        margin-left: 13%;
+                    }
+                    @include breakpoint(tablet) {
+                        width: 70%;
+                        margin-left: 13%;
+                    }
+                    .col-sm-3 {
+                        img {
+                            margin-bottom: 7px;
+                        }
+                        h6 {
+                            font-size: 22px;
+                            width: 50%;
+                            margin-left: 25%;
+                            @include breakpoint(desktop) {
+                                width: 78%;
+                                margin-left: 13%;
+                            }
+                            @include breakpoint(tablet) {
+                                width: 78%;
+                                margin-left: 13%;
+                            }
+                        }
+                        p {
+                            font-size: 12px;
+                            width: 50%;
+                            margin-left: 25%;
+                            @include breakpoint(desktop) {
+                                width: 82%;
+                                margin-left: 13%;
+                            }
+                            @include breakpoint(tablet) {
+                                width: 82%;
+                                margin-left: 13%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
