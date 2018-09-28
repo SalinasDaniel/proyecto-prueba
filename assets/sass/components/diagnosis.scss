@@ -1,0 +1,61 @@
+body {
+    main {
+        .diagnosis {
+            height: 305px;
+            margin-top: 36px;
+            text-align: center;
+            @include breakpoint(desktop) {
+                margin-top: 241px;
+                height: 681px;
+                text-align: left;
+            }
+            @include breakpoint(tablet) {
+                text-align: left;
+            }
+            .image {
+                background: linear-gradient(to left, rgba(255, 255, 255, 0), #FF9300), url('../images/diagnostico.png');
+                height: 305px;
+                width: 100%;
+                background-size: 100% 100%;
+                @include breakpoint(desktop) {
+                    height: 681px;
+                }
+                .text {
+                    color: #FFFFFF;
+                    p {
+                        margin-top: 70px;
+                        position: absolute;
+                        @include breakpoint(desktop) {
+                            font-size: 32px;
+                            margin-left: 8%;
+                            width: 50%;
+                            margin-top: 205px;
+                        }
+                        @include breakpoint(tablet) {
+                            font-size: 32px;
+                            margin-left: 2%;
+                            width: 96%;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+                .btn-default {
+                    font-size: 11px;
+                    background-color: #FFFFFF;
+                    margin-top: 198px;
+                    color: #FF9300;
+                    @include breakpoint(desktop) {
+                        margin-left: 8%;
+                        font-size: 19px;
+                        margin-top: 376px;
+                    }
+                    @include breakpoint(tablet) {
+                        margin-left: 3%;
+                        font-size: 19px;
+                        margin-top: 198px;
+                    }
+                }
+            }
+        }
+    }
+}

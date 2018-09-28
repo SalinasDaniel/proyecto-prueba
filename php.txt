@@ -1,0 +1,2 @@
+ <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style.css'; ?>">
+<img src="<?php bloginfo('template_directory');?>/images/logoAsys.png" alt="Asys">

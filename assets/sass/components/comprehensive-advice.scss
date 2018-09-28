@@ -1,0 +1,118 @@
+body {
+    main {
+        .comprehensive-advice {
+            background-color: #E9EFF2;
+            .row {
+                margin-right: 0;
+            }
+            .row-1 {
+                .col-sm-4 {
+                    @include breakpoint(desktop) {
+                        margin-left: 98px
+                    }
+                    h6 {
+                        margin-top: 32px;
+                        margin-left: 7%;
+                        @include breakpoint(desktop) {
+                            margin-top: 266px;
+                            font-size: 22px;
+                        }
+                        @include breakpoint(tablet) {
+                            margin-top: 122px;
+                            font-size: 22px;
+                        }
+                    }
+                    hr {
+                        width: 11%;
+                        background-color: #FF9300;
+                        margin-right: 82%;
+                        height: 1px;
+                    }
+                    p {
+                        margin-left: 6%;
+                        color: #05283C;
+                        @include breakpoint(desktop) {
+                            font-size: 32px;
+                        }
+                        @include breakpoint(tablet) {
+                            font-size: 23px;
+                        }
+                    }
+                    a {
+                        .btn-default {
+                            font-size: 14px;
+                            margin-left: 6%;
+                            background-color: #FFFFFF;
+                            border-radius: 14px;
+                            color: #05283C;
+                            border-color: #05283C;
+                            @include breakpoint(tablet) {
+                                font-size: 18px;
+                                margin-left: 5%;
+                            }
+                            @include breakpoint(desktop) {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                }
+                .col-sm-8 {
+                    @include breakpoint(desktop) {
+                        max-width: 58.666667%;
+                    }
+                    img {
+                        margin-left: 4%;
+                        margin-top: 25px;
+                        width: 100%;
+                        @include breakpoint(desktop) {
+                            margin-left: 33%;
+                            margin-top: 168px;
+                            width: 72%;
+                        }
+                    }
+                }
+            }
+            .row-2 {
+                text-align: center;
+                @include breakpoint(desktop) {
+                    margin-top: 90px;
+                    margin-left: 9%;
+                }
+                @include breakpoint(tablet) {
+                    margin-top: 60px;
+                }
+                .col-sm-4 {
+                    color: #606060;
+                    img {
+                        @include breakpoint(desktop) {
+                            float: left;
+                        }
+                    }
+                    p {
+                        margin-bottom: 30px;
+                        font-size: 22px;
+                        @include breakpoint(desktop) {
+                            margin-bottom: 109px;
+                            width: 47%;
+                            text-align: left;
+                            margin-top: 13px;
+                            margin-left: 15%;
+                        }
+                    }
+                }
+            }
+        }
+        .button {
+            text-align: center;
+            .btn-default {
+                margin-top: -28px;
+                font-size: 11px;
+                background-color: #FF9300;
+                color: #FFFFFF;
+                @include breakpoint(desktop) {
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}

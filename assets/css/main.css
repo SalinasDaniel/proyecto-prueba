@@ -55,7 +55,7 @@ body header .headboard .row {
     margin-left: 3%; }
     @media (min-width: 1025px) {
       body header .headboard .row .image img {
-        margin-top: -169px;
+        margin-top: -80px;
         margin-left: 0%; } }
 
 body main hr {
@@ -144,7 +144,8 @@ body main .request {
   body main .request .description {
     position: absolute;
     margin-top: 27px;
-    color: #F26739; }
+    color: #F26739;
+    width: 100%; }
     @media (min-width: 1025px) {
       body main .request .description {
         margin-top: 50px;
@@ -156,7 +157,7 @@ body main .request {
       body main .request .description {
         margin-top: 50px;
         font-size: 32px;
-        width: 47%;
+        width: 46%;
         text-align: left;
         margin-left: 17%; } }
     body main .request .description .text1 {
@@ -256,3 +257,187 @@ body main .form-request {
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .form-request form .btn-primary {
           height: 51px; } }
+
+body footer {
+  background-color: #111231; }
+  body footer .row {
+    margin-right: 0; }
+    body footer .row .col-sm-6 ul {
+      margin-top: 40px; }
+      @media (min-width: 1025px) {
+        body footer .row .col-sm-6 ul {
+          margin-left: 9%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body footer .row .col-sm-6 ul {
+          margin-left: 9%; } }
+      body footer .row .col-sm-6 ul li {
+        list-style: none;
+        color: #CCCCCC;
+        font-size: 13px;
+        margin-top: 5px; }
+        @media (min-width: 1025px) {
+          body footer .row .col-sm-6 ul li {
+            font-size: 22px;
+            margin-top: 0; } }
+        body footer .row .col-sm-6 ul li i {
+          color: #FFFFFF;
+          width: 8%; }
+          @media (min-width: 1025px) {
+            body footer .row .col-sm-6 ul li i {
+              width: 5%;
+              letter-spacing: 16px; } }
+    body footer .row .logo {
+      text-align: center;
+      margin-top: 11px;
+      margin-bottom: 23px; }
+      @media (min-width: 1025px) {
+        body footer .row .logo {
+          margin-top: 40px;
+          margin-bottom: 40px; } }
+
+body main .diagnosis {
+  height: 305px;
+  margin-top: 36px;
+  text-align: center; }
+  @media (min-width: 1025px) {
+    body main .diagnosis {
+      margin-top: 241px;
+      height: 681px;
+      text-align: left; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .diagnosis {
+      text-align: left; } }
+  body main .diagnosis .image {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #FF9300), url("../images/diagnostico.png");
+    height: 305px;
+    width: 100%;
+    background-size: 100% 100%; }
+    @media (min-width: 1025px) {
+      body main .diagnosis .image {
+        height: 681px; } }
+    body main .diagnosis .image .text {
+      color: #FFFFFF; }
+      body main .diagnosis .image .text p {
+        margin-top: 70px;
+        position: absolute; }
+        @media (min-width: 1025px) {
+          body main .diagnosis .image .text p {
+            font-size: 32px;
+            margin-left: 8%;
+            width: 50%;
+            margin-top: 205px; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .diagnosis .image .text p {
+            font-size: 32px;
+            margin-left: 2%;
+            width: 96%;
+            margin-top: 8px; } }
+    body main .diagnosis .image .btn-default {
+      font-size: 11px;
+      background-color: #FFFFFF;
+      margin-top: 198px;
+      color: #FF9300; }
+      @media (min-width: 1025px) {
+        body main .diagnosis .image .btn-default {
+          margin-left: 8%;
+          font-size: 19px;
+          margin-top: 376px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .diagnosis .image .btn-default {
+          margin-left: 3%;
+          font-size: 19px;
+          margin-top: 198px; } }
+
+body main .comprehensive-advice {
+  background-color: #E9EFF2; }
+  body main .comprehensive-advice .row {
+    margin-right: 0; }
+  @media (min-width: 1025px) {
+    body main .comprehensive-advice .row-1 .col-sm-4 {
+      margin-left: 98px; } }
+  body main .comprehensive-advice .row-1 .col-sm-4 h6 {
+    margin-top: 32px;
+    margin-left: 7%; }
+    @media (min-width: 1025px) {
+      body main .comprehensive-advice .row-1 .col-sm-4 h6 {
+        margin-top: 266px;
+        font-size: 22px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .comprehensive-advice .row-1 .col-sm-4 h6 {
+        margin-top: 122px;
+        font-size: 22px; } }
+  body main .comprehensive-advice .row-1 .col-sm-4 hr {
+    width: 11%;
+    background-color: #FF9300;
+    margin-right: 82%;
+    height: 1px; }
+  body main .comprehensive-advice .row-1 .col-sm-4 p {
+    margin-left: 6%;
+    color: #05283C; }
+    @media (min-width: 1025px) {
+      body main .comprehensive-advice .row-1 .col-sm-4 p {
+        font-size: 32px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .comprehensive-advice .row-1 .col-sm-4 p {
+        font-size: 23px; } }
+  body main .comprehensive-advice .row-1 .col-sm-4 a .btn-default {
+    font-size: 14px;
+    margin-left: 6%;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    color: #05283C;
+    border-color: #05283C; }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .comprehensive-advice .row-1 .col-sm-4 a .btn-default {
+        font-size: 18px;
+        margin-left: 5%; } }
+    @media (min-width: 1025px) {
+      body main .comprehensive-advice .row-1 .col-sm-4 a .btn-default {
+        font-size: 18px; } }
+  @media (min-width: 1025px) {
+    body main .comprehensive-advice .row-1 .col-sm-8 {
+      max-width: 58.666667%; } }
+  body main .comprehensive-advice .row-1 .col-sm-8 img {
+    margin-left: 4%;
+    margin-top: 25px;
+    width: 100%; }
+    @media (min-width: 1025px) {
+      body main .comprehensive-advice .row-1 .col-sm-8 img {
+        margin-left: 33%;
+        margin-top: 168px;
+        width: 72%; } }
+  body main .comprehensive-advice .row-2 {
+    text-align: center; }
+    @media (min-width: 1025px) {
+      body main .comprehensive-advice .row-2 {
+        margin-top: 90px;
+        margin-left: 9%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .comprehensive-advice .row-2 {
+        margin-top: 60px; } }
+    body main .comprehensive-advice .row-2 .col-sm-4 {
+      color: #606060; }
+      @media (min-width: 1025px) {
+        body main .comprehensive-advice .row-2 .col-sm-4 img {
+          float: left; } }
+      body main .comprehensive-advice .row-2 .col-sm-4 p {
+        margin-bottom: 30px;
+        font-size: 22px; }
+        @media (min-width: 1025px) {
+          body main .comprehensive-advice .row-2 .col-sm-4 p {
+            margin-bottom: 109px;
+            width: 47%;
+            text-align: left;
+            margin-top: 13px;
+            margin-left: 15%; } }
+
+body main .button {
+  text-align: center; }
+  body main .button .btn-default {
+    margin-top: -28px;
+    font-size: 11px;
+    background-color: #FF9300;
+    color: #FFFFFF; }
+    @media (min-width: 1025px) {
+      body main .button .btn-default {
+        font-size: 21px; } }

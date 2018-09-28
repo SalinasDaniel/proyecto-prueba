@@ -1,10 +1,10 @@
-﻿<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri().'/style.css'; ?>">
+    <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo>">
-                        <img src="<?php bloginfo('template_directory');?>/logo-Asys.png" alt="Asys">
+                        <img src="assets/images/logoAsys.png" alt="Asys">
                     </div>
                 </div>
                 <div class="col-sm-6">
@@ -39,7 +39,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="image">
-                        <img src="<?php bloginfo('template_directory');?>/imagen-cabezera.png" class="w-100" alt="">
+                        <img src="assets/images/imagencabezera.png" class="w-100" alt="">
                     </div>
                 </div>
             </div>
@@ -54,22 +54,22 @@
             <div class="list-services">
                 <div class="row">
                     <div class="col-sm-3">
-                        <img src="<?php bloginfo('template_directory');?>/servicio1.png" alt="Asesoria Financiera">
+                        <img src="assets/images/servicio1.png" alt="Asesoria Financiera">
                         <h6>Asesoria Financiera</h6>
                         <p>Incrementa y rentabiliza cada vez más los recursos financieros de la compañía.</p>
                     </div>
                     <div class="col-sm-3">
-                        <img src="<?php bloginfo('template_directory');?>/servicio2.png" alt="Auditoria NIIF">
+                        <img src="assets/images/servicio2.png" alt="Auditoria NIIF">
                         <h6>Auditoria <br> NIIF</h6>
                         <p>Auditamos los marcos normativos vigentes de contabilidad evitando costosas sanciones.</p>
                     </div>
                     <div class="col-sm-3">
-                        <img src="<?php bloginfo('template_directory');?>/servicio3.png" alt="Asesoria Tributaria">
+                        <img src="assets/images/servicio3.png" alt="Asesoria Tributaria">
                         <h6>Asesoria Tributaria</h6>
                         <p>Planeación tributaria que optimiza tu tiempo y tus recursos al máximo para que no pagues de más.</p>
                     </div>
                     <div class="col-sm-3">
-                        <img src="<?php bloginfo('template_directory');?>/servicio4.png" alt="Asesoria Regimen Cambiario">
+                        <img src="assets/images/servicio4.png" alt="Asesoria Regimen Cambiario">
                         <h6>Asesoria Regimen Cambiario</h6>
                         <p>Realizamos la legalización obligatoria de las transacciones de divisas internacionales.</p>
                     </div>
@@ -80,7 +80,7 @@
             <div class="description">
                 <p class="text1">Paga el menor monto posible de impuestos.</p>
                 <p class="text2">Evita multas y sanciones multimillonarias.</p>
-                <img src="<?php bloginfo('template_directory');?>/flecha.png" alt="Diagnostico Gratis">
+                <img src="assets/images/flecha.png" alt="Diagnostico Gratis">
                 <hr>
             </div>
             <div class="line-vertical">
@@ -104,7 +104,75 @@
                 <h3>Su navegador no soporta canvas</h3>
             </canvas>
         </section>
+        <section class="diagnosis">
+            <div class="image">
+                <div class="text">
+                    <p>Precios bajos que se adaptan a todos los tamaños de empresa y presupuestos. Tomar buenas decisiones no cuesta más.</p>
+                </div>
+                <a href="#">
+                    <button type="button" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
+                </a>
+            </div>
+        </section>
+        <section class="comprehensive-advice">
+            <div class="row row-1">
+                <div class="col-sm-4">
+                    <h6>Asesoría Integral</h6>
+                    <hr>
+                    <p>Descubre cómo mejoran tus finanzas, <strong>el acompañamiento de nuestros expertos.</strong></p>
+                    <a href="#">
+                        <button type="button" class="btn btn-default">Conoce a fondo cómo te ayudamos</button>
+                    </a>
+                </div>
+                <div class="col-sm-8">
+                    <img src="assets/images/advice.png" alt="Asesoria Integral">
+                </div>
+            </div>
+            <div class="row row-2">
+                <div class="col-sm-4">
+                    <img src="assets/images/asesoria1.png" alt="Asesoria">
+                    <p>Levantamiento y generación de informe.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/asesoria2.png" alt="Asesoria">
+                    <p>Formulación del plan de mejora continua.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="assets/images/asesoria3.png" alt="Asesoria">
+                    <p>Ejecución y evaluación del plan de mejora.</p>
+                </div>
+            </div>
+        </section>
+        <section class="button">
+            <a href="#">
+                <button type="button" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
+            </a>
+        </section>
     </main>
+    <footer>
+        <div class="row">
+            <div class="col-sm-6">
+                <ul>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>Calle 70a bis No. 117 -15 T.O1 Ofic. 1101
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-volume"></i>317 365 8826 / 315 847 0737
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>Info@asysconsultingcol.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <div class="logo">
+                    <img src="assets/images/logoAsysFooter.png" alt="Asys">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

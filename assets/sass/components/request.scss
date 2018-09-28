@@ -13,6 +13,7 @@ body {
                 position: absolute;
                 margin-top: 27px;
                 color: #F26739;
+                width: 100%;
                 @include breakpoint (desktop) {
                     margin-top: 50px;
                     font-size: 32px;
@@ -23,7 +24,7 @@ body {
                 @include breakpoint (tablet) {
                     margin-top: 50px;
                     font-size: 32px;
-                    width: 47%;
+                    width: 46%;
                     text-align: left;
                     margin-left: 17%;
                 }
