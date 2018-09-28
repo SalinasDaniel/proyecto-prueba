@@ -1,0 +1,42 @@
+body {
+    main {
+        .contac-whats {
+            margin-top: 45px;
+            .background-whastapp {
+                background-image: url('../images/background-whatsapp.png');
+                height: 263px;
+                width: 100%;
+                text-align: center;
+                @include breakpoint(desktop) {
+                    height: 390px;
+                }
+                @include breakpoint(tablet) {
+                    height: 390px;
+                }
+                p {
+                    color: #214A80;
+                    @include breakpoint(desktop) {
+                        font-size: 32px;
+                    }
+                    @include breakpoint(tablet) {
+                        font-size: 32px;
+                    }
+                    label {
+                        color: #000000;
+                    }
+                }
+                img {
+                    margin-top: 30px;
+                    margin-bottom: 15px;
+                    width: 70%;
+                    @include breakpoint(desktop) {
+                        width: 40%;
+                    }
+                    @include breakpoint(tablet) {
+                        width: 40%;
+                    }
+                }
+            }
+        }
+    }
+}

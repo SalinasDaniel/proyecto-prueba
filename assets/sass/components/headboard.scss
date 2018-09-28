@@ -7,18 +7,14 @@ body {
                     .description-headboard {
                         margin-top: 25px;
                         margin-left: 15%;
+                        color: #05283C;
                         @include breakpoint(desktop) {
                             text-align: left;
-                            margin-left: 34%;
-                            color: #05283C;
                             font-size: 32px;
                             margin-top: 130px;
                         }
                         @include breakpoint(tablet) {
                             font-size: 25px;
-                        }
-                        .text1 {
-                            font-weight: 300;
                         }
                         hr {
                             margin-left: 0%;

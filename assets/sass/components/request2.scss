@@ -1,18 +1,31 @@
 body {
     main {
-        .request {
+        .request2 {
             text-align: center;
             margin-top: 25px;
+            background-color: #0064EF;
+            border-radius: 20px;
             @include breakpoint(desktop) {
                 margin-top: 181px;
+                height: 801px;
+                border-radius: 0px;
             }
             @include breakpoint(tablet) {
                 margin-top: 100px;
+                border-radius: 0px;
+            }
+            .desp {
+                @include breakpoint(desktop) {
+                    height: 130px;
+                }
+                @include breakpoint(tablet) {
+                    height: 26px;
+                }
             }
             .description {
                 position: absolute;
                 margin-top: 27px;
-                color: #F26739;
+                color: #FFFFFF;
                 width: 100%;
                 @include breakpoint (desktop) {
                     margin-top: 50px;
@@ -87,11 +100,11 @@ body {
         }
         .form-request {
             margin-left: 17%;
-            h2 {
+            .diagnosis-free {
                 position: absolute;
                 margin-top: 171px;
                 margin-left: -18%;
-                color: #05283C;
+                color: #ffffff;
                 @include breakpoint(desktop) {
                     margin-top: 54px;
                     margin-left: 48%;
@@ -105,7 +118,7 @@ body {
                     text-align: left;
                 }
             }
-            form {
+            .form2 {
                 position: absolute;
                 margin-top: 270px;
                 @include breakpoint(desktop) {
@@ -118,14 +131,18 @@ body {
                     margin-left: 43%;
                     width: 29%;
                 }
-                .form-control {
-                    border-color: #000000;
+                .form-reques2 {
+                    background-color: transparent;
+                    border-color: #ffffff;
                     @include breakpoint(desktop) {
                         height: 51px;
                     }
                     @include breakpoint(tablet) {
                         height: 51px;
                     }
+                }
+                 ::placeholder {
+                    color: #FFFFFF;
                 }
                 .btn-primary {
                     background-color: #F37421;
