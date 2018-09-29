@@ -2,6 +2,9 @@ body {
     main {
         .contac-whats {
             margin-top: 45px;
+            @include breakpoint(desktop) {
+                margin-top: 200px;
+            }
             .background-whastapp {
                 background-image: url('../images/background-whatsapp.png');
                 height: 263px;

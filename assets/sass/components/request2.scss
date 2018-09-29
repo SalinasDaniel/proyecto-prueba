@@ -25,11 +25,11 @@ body {
                 color: #FFFFFF;
                 width: 100%;
                 @include breakpoint (desktop) {
-                    margin-top: 50px;
+                    margin-top: 6%;
                     font-size: 32px;
-                    width: 28%;
+                    width: 30%;
                     text-align: left;
-                    margin-left: 26%;
+                    margin-left: 23%;
                 }
                 @include breakpoint (tablet) {
                     margin-top: 50px;

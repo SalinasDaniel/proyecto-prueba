@@ -15,11 +15,11 @@ body {
                 color: #F26739;
                 width: 100%;
                 @include breakpoint (desktop) {
-                    margin-top: 50px;
+                    margin-top: 7%;
                     font-size: 32px;
-                    width: 28%;
+                    width: 30%;
                     text-align: left;
-                    margin-left: 26%;
+                    margin-left: 24%;
                 }
                 @include breakpoint (tablet) {
                     margin-top: 50px;
@@ -59,7 +59,7 @@ body {
                 }
             }
             canvas {
-                border: 1px solid #E6E6FA;
+                border: 1px solid #c1c1c1;
                 width: 100%;
                 border-radius: 20px;
                 height: 500px;
@@ -72,13 +72,13 @@ body {
             }
             .line-vertical {
                 @include breakpoint(desktop) {
-                    border-left: 1px solid #E6E6FA;
+                    border-left: 1px solid #c1c1c1;
                     height: 500px;
                     position: absolute;
                     margin-left: 61%;
                 }
                 @include breakpoint(tablet) {
-                    border-left: 1px solid #E6E6FA;
+                    border-left: 1px solid #c1c1c1;
                     height: 500px;
                     position: absolute;
                     margin-left: 57%;
@@ -137,6 +137,11 @@ body {
                     @include breakpoint(tablet) {
                         height: 51px;
                     }
+                }
+                .btn-primary:hover {
+                    background-color: #FFFFFF;
+                    color: #F37421;
+                    border-color: #F26739;
                 }
             }
         }

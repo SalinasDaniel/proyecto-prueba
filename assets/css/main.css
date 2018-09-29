@@ -145,11 +145,11 @@ body main .request {
     width: 100%; }
     @media (min-width: 1025px) {
       body main .request .description {
-        margin-top: 50px;
+        margin-top: 7%;
         font-size: 32px;
-        width: 28%;
+        width: 30%;
         text-align: left;
-        margin-left: 26%; } }
+        margin-left: 24%; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .request .description {
         margin-top: 50px;
@@ -183,7 +183,7 @@ body main .request {
         body main .request .description hr {
           display: none; } }
   body main .request canvas {
-    border: 1px solid #E6E6FA;
+    border: 1px solid #c1c1c1;
     width: 100%;
     border-radius: 20px;
     height: 500px; }
@@ -195,13 +195,13 @@ body main .request {
         width: 81%; } }
   @media (min-width: 1025px) {
     body main .request .line-vertical {
-      border-left: 1px solid #E6E6FA;
+      border-left: 1px solid #c1c1c1;
       height: 500px;
       position: absolute;
       margin-left: 61%; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .request .line-vertical {
-      border-left: 1px solid #E6E6FA;
+      border-left: 1px solid #c1c1c1;
       height: 500px;
       position: absolute;
       margin-left: 57%; } }
@@ -256,6 +256,10 @@ body main .form-request {
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .form-request form .btn-primary {
           height: 51px; } }
+    body main .form-request form .btn-primary:hover {
+      background-color: #FFFFFF;
+      color: #F37421;
+      border-color: #F26739; }
 
 body footer {
   background-color: #111231; }
@@ -348,9 +352,13 @@ body main .diagnosis {
           margin-left: 3%;
           font-size: 19px;
           margin-top: 198px; } }
+    body main .diagnosis .image .btn-default:hover {
+      background-color: #F26739;
+      color: #FFFFFF;
+      border-color: transparent; }
 
 body main .comprehensive-advice {
-  background-color: #E9EFF2; }
+  background-color: #d8d8d8; }
   body main .comprehensive-advice .row {
     margin-right: 0; }
   @media (min-width: 1025px) {
@@ -395,6 +403,10 @@ body main .comprehensive-advice {
     @media (min-width: 1025px) {
       body main .comprehensive-advice .row-1 .col-sm-4 a .btn-default {
         font-size: 18px; } }
+  body main .comprehensive-advice .row-1 .col-sm-4 a .btn-default:hover {
+    background-color: #F26739;
+    color: #FFFFFF;
+    border-color: transparent; }
   @media (min-width: 1025px) {
     body main .comprehensive-advice .row-1 .col-sm-8 {
       max-width: 58.666667%; } }
@@ -442,6 +454,10 @@ body main .button {
     @media (min-width: 1025px) {
       body main .button .btn-default {
         font-size: 21px; } }
+  body main .button .btn-default:hover {
+    background-color: #FFFFFF;
+    color: #F37421;
+    border-color: #F26739; }
 
 body main .strategy {
   color: #214A80;
@@ -449,7 +465,7 @@ body main .strategy {
   text-align: left; }
   @media (min-width: 1025px) {
     body main .strategy {
-      margin-top: 180px; } }
+      margin-top: 200px; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .strategy {
       margin-top: 60px; } }
@@ -522,6 +538,9 @@ body main .strategy {
 
 body main .contac-whats {
   margin-top: 45px; }
+  @media (min-width: 1025px) {
+    body main .contac-whats {
+      margin-top: 200px; } }
   body main .contac-whats .background-whastapp {
     background-image: url("../images/background-whatsapp.png");
     height: 263px;
@@ -556,7 +575,7 @@ body main .contac-whats {
           width: 40%; } }
 
 body main .team-company {
-  background-color: #E9EFF2;
+  background-color: #d8d8d8;
   text-align: center; }
   body main .team-company h1 {
     font-size: 18px;
@@ -586,7 +605,7 @@ body main .team-company {
       @media (min-width: 1025px) {
         body main .team-company .row .content {
           width: 55%;
-          height: 536px;
+          height: 429px;
           margin-left: 50%; } }
       body main .team-company .row .content img {
         width: 100%; }
@@ -596,6 +615,8 @@ body main .team-company {
         body main .team-company .row .content .description p {
           font-size: 12px;
           width: 89%; }
+        body main .team-company .row .content .description h6 {
+          font-weight: 900; }
       body main .team-company .row .content .description-alianze {
         font-size: 22px; }
         @media (min-width: 668px) and (max-width: 1024px) {
@@ -616,6 +637,8 @@ body main .team-company {
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .team-company .row-1 {
         margin-top: 124px; } }
+  body main .team-company .row-2 {
+    margin-bottom: 65px; }
 
 body main .request2 {
   text-align: center;
@@ -641,11 +664,11 @@ body main .request2 {
     width: 100%; }
     @media (min-width: 1025px) {
       body main .request2 .description {
-        margin-top: 50px;
+        margin-top: 6%;
         font-size: 32px;
-        width: 28%;
+        width: 30%;
         text-align: left;
-        margin-left: 26%; } }
+        margin-left: 23%; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .request2 .description {
         margin-top: 50px;
