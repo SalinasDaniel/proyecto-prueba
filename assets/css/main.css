@@ -524,10 +524,11 @@ body main .contac-whats {
     background-image: url("../images/background-whatsapp.png");
     height: 263px;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    background-size: 100% 100%; }
     @media (min-width: 1025px) {
       body main .contac-whats .background-whastapp {
-        height: 390px; } }
+        height: 485px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .contac-whats .background-whastapp {
         height: 390px; } }
@@ -552,19 +553,73 @@ body main .contac-whats {
         body main .contac-whats .background-whastapp img {
           width: 40%; } }
 
+body main .team-company {
+  background-color: #E9EFF2;
+  text-align: center; }
+  body main .team-company h1 {
+    font-size: 18px;
+    padding-top: 32px; }
+    @media (min-width: 1025px) {
+      body main .team-company h1 {
+        font-size: 32px;
+        padding-top: 150px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .team-company h1 {
+        font-size: 32px;
+        padding-top: 150px; } }
+  body main .team-company .row {
+    margin-right: 0;
+    margin-top: 31px; }
+    @media (min-width: 1025px) {
+      body main .team-company .row {
+        margin-top: 124px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .team-company .row {
+        margin-top: 124px; } }
+    body main .team-company .row .col-sm-4 {
+      text-align: -webkit-center;
+      margin-bottom: 20px; }
+    body main .team-company .row .content {
+      background-color: #FFFFFF;
+      width: 77%;
+      height: 477px;
+      text-align: left;
+      color: #214A80; }
+      @media (min-width: 1025px) {
+        body main .team-company .row .content {
+          width: 55%;
+          height: 536px; } }
+      body main .team-company .row .content img {
+        width: 100%; }
+      body main .team-company .row .content .description {
+        margin-left: 13%;
+        margin-top: 27px; }
+        body main .team-company .row .content .description p {
+          font-size: 12px;
+          width: 89%; }
+      body main .team-company .row .content .description-alianze {
+        font-size: 22px; }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .team-company .row .content .description-alianze {
+            font-size: 19px; } }
+        body main .team-company .row .content .description-alianze p {
+          padding-top: 78px;
+          text-align: center; }
+      body main .team-company .row .content .alliance img {
+        width: 70%;
+        margin-top: 32px;
+        margin-left: 12%; }
+
 body main .request2 {
   text-align: center;
-  margin-top: 25px;
   background-color: #0064EF;
   border-radius: 20px; }
   @media (min-width: 1025px) {
     body main .request2 {
-      margin-top: 181px;
       height: 801px;
       border-radius: 0px; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .request2 {
-      margin-top: 100px;
       border-radius: 0px; } }
   @media (min-width: 1025px) {
     body main .request2 .desp {

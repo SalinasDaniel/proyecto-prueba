@@ -1,0 +1,73 @@
+body {
+    main {
+        .team-company {
+            background-color: #E9EFF2;
+            text-align: center;
+            h1 {
+                font-size: 18px;
+                padding-top: 32px;
+                @include breakpoint(desktop) {
+                    font-size: 32px;
+                    padding-top: 150px;
+                }
+                @include breakpoint(tablet) {
+                    font-size: 32px;
+                    padding-top: 150px;
+                }
+            }
+            .row {
+                margin-right: 0;
+                margin-top: 31px;
+                @include breakpoint(desktop) {
+                    margin-top: 124px;
+                }
+                @include breakpoint(tablet) {
+                    margin-top: 124px;
+                }
+                .col-sm-4 {
+                    text-align: -webkit-center;
+                    margin-bottom: 20px;
+                }
+                .content {
+                    background-color: #FFFFFF;
+                    width: 77%;
+                    height: 477px;
+                    text-align: left;
+                    color: #214A80;
+                    @include breakpoint(desktop) {
+                        width: 55%;
+                        height: 536px;
+                    }
+                    img {
+                        width: 100%;
+                    }
+                    .description {
+                        margin-left: 13%;
+                        margin-top: 27px;
+                        p {
+                            font-size: 12px;
+                            width: 89%;
+                        }
+                    }
+                    .description-alianze {
+                        font-size: 22px;
+                        @include breakpoint(tablet) {
+                            font-size: 19px;
+                        }
+                        p {
+                            padding-top: 78px;
+                            text-align: center;
+                        }
+                    }
+                    .alliance {
+                        img {
+                            width: 70%;
+                            margin-top: 32px;
+                            margin-left: 12%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
