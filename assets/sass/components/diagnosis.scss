@@ -16,7 +16,9 @@ body {
                 background: linear-gradient(to left, rgba(255, 255, 255, 0), #FF9300), url('../images/diagnostico.png');
                 height: 305px;
                 width: 100%;
-                background-size: 100% 100%;
+                @include breakpoint(phone) {
+                    background-size: 100% 100%;
+                }
                 @include breakpoint(desktop) {
                     height: 681px;
                 }
