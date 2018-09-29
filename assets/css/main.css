@@ -2,7 +2,7 @@ html body {
   font-family: Montserrat; }
 
 body header .logo-contact {
-  margin-top: 71px;
+  margin-top: 2%;
   text-align: center; }
   @media (min-width: 1025px) {
     body header .logo-contact {
