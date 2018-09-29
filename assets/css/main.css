@@ -568,17 +568,13 @@ body main .team-company {
         font-size: 32px;
         padding-top: 150px; } }
   body main .team-company .row {
-    margin-right: 0;
-    margin-top: 31px; }
-    @media (min-width: 1025px) {
-      body main .team-company .row {
-        margin-top: 124px; } }
-    @media (min-width: 668px) and (max-width: 1024px) {
-      body main .team-company .row {
-        margin-top: 124px; } }
+    margin-right: 0; }
     body main .team-company .row .col-sm-4 {
       text-align: -webkit-center;
       margin-bottom: 20px; }
+      @media (min-width: 1025px) {
+        body main .team-company .row .col-sm-4 {
+          margin-right: -123px; } }
     body main .team-company .row .content {
       background-color: #FFFFFF;
       width: 77%;
@@ -588,7 +584,8 @@ body main .team-company {
       @media (min-width: 1025px) {
         body main .team-company .row .content {
           width: 55%;
-          height: 536px; } }
+          height: 536px;
+          margin-left: 50%; } }
       body main .team-company .row .content img {
         width: 100%; }
       body main .team-company .row .content .description {
@@ -609,6 +606,14 @@ body main .team-company {
         width: 70%;
         margin-top: 32px;
         margin-left: 12%; }
+  body main .team-company .row-1 {
+    margin-top: 31px; }
+    @media (min-width: 1025px) {
+      body main .team-company .row-1 {
+        margin-top: 124px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .team-company .row-1 {
+        margin-top: 124px; } }
 
 body main .request2 {
   text-align: center;
