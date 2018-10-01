@@ -106,8 +106,8 @@ body main .services .list-services {
         margin-left: 13%; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .services .list-services .row {
-        width: 70%;
-        margin-left: 13%; } }
+        width: 100%;
+        margin-left: 0%; } }
     body main .services .list-services .row .col-sm-3 img {
       margin-bottom: 7px; }
     body main .services .list-services .row .col-sm-3 h6 {
@@ -682,7 +682,7 @@ body main .request2 {
       body main .request2 .description {
         margin-top: 50px;
         font-size: 32px;
-        width: 42%;
+        width: 41%;
         text-align: left;
         margin-left: 17%; } }
     body main .request2 .description .text1 {
@@ -699,7 +699,7 @@ body main .request2 {
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .request2 .description img {
           margin-left: 18%;
-          margin-top: 40px;
+          margin-top: 0px;
           display: block; } }
     body main .request2 .description hr {
       width: 100%;

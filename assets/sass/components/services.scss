@@ -46,8 +46,8 @@ body {
                         margin-left: 13%;
                     }
                     @include breakpoint(tablet) {
-                        width: 70%;
-                        margin-left: 13%;
+                        width: 100%;
+                        margin-left: 0%;
                     }
                     .col-sm-3 {
                         img {
