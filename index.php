@@ -92,7 +92,7 @@
             <div class="form-request">
                 <?php include 'validar.php'; ?>
                 <h2>Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
-                <form action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" method="post">
+                <form action="" method="post">
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" placeholder="Nombre">
                     </div>
