@@ -6,27 +6,33 @@ body header .logo-contact {
   text-align: center; }
   @media (min-width: 1025px) {
     body header .logo-contact {
-      text-align: left; } }
+      text-align: left;
+      width: 85%;
+      margin-left: 7%; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body header .logo-contact {
-      text-align: left; } }
-  body header .logo-contact .row .col-sm-6 .contact {
-    margin-top: 46px; }
-    @media (min-width: 1025px) {
-      body header .logo-contact .row .col-sm-6 .contact {
-        text-align: right; } }
-    @media (min-width: 668px) and (max-width: 1024px) {
-      body header .logo-contact .row .col-sm-6 .contact {
-        text-align: right; } }
-    body header .logo-contact .row .col-sm-6 .contact h1 {
-      font-size: 32px;
-      color: #05283C;
-      font-weight: 300; }
-      body header .logo-contact .row .col-sm-6 .contact h1 .fa-whatsapp {
-        font-size: 16px;
-        position: absolute;
-        color: #25d366;
-        font-weight: 600; }
+      text-align: left;
+      width: 85%;
+      margin-left: 7%; } }
+  body header .logo-contact .row {
+    margin-right: 0; }
+    body header .logo-contact .row .col-sm-6 .contact {
+      margin-top: 46px; }
+      @media (min-width: 1025px) {
+        body header .logo-contact .row .col-sm-6 .contact {
+          text-align: right; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body header .logo-contact .row .col-sm-6 .contact {
+          text-align: right; } }
+      body header .logo-contact .row .col-sm-6 .contact h1 {
+        font-size: 32px;
+        color: #05283C;
+        font-weight: 300; }
+        body header .logo-contact .row .col-sm-6 .contact h1 .fa-whatsapp {
+          font-size: 16px;
+          position: absolute;
+          color: #25d366;
+          font-weight: 600; }
 
 body header .headboard .row {
   margin-right: 0; }
@@ -502,17 +508,17 @@ body main .strategy {
     body main .strategy .row .col-sm-3 {
       margin-bottom: 30px; }
       body main .strategy .row .col-sm-3 .circle {
-        width: 54%;
-        height: 211px;
+        width: 236px;
+        height: 230px;
         border: 1px solid #214A80;
         border-radius: 118px; }
         @media (min-width: 1025px) {
           body main .strategy .row .col-sm-3 .circle {
-            width: 89%;
+            width: 195px;
             height: 191px; } }
         @media (min-width: 668px) and (max-width: 1024px) {
           body main .strategy .row .col-sm-3 .circle {
-            width: 100%;
+            width: 175px;
             height: 172px; } }
         body main .strategy .row .col-sm-3 .circle img {
           width: 33%;
@@ -532,7 +538,8 @@ body main .strategy {
               margin-top: 6px; } }
           @media (min-width: 668px) and (max-width: 1024px) {
             body main .strategy .row .col-sm-3 .circle p {
-              margin-top: 6px; } }
+              margin-top: 6px;
+              font-size: 11px; } }
         body main .strategy .row .col-sm-3 .circle .text2 {
           width: 98%; }
 
@@ -545,11 +552,10 @@ body main .contac-whats {
     background-image: url("../images/background-whatsapp.png");
     height: 263px;
     width: 100%;
-    text-align: center;
-    background-size: 100% 100%; }
+    text-align: center; }
     @media (min-width: 1025px) {
       body main .contac-whats .background-whastapp {
-        height: 485px; } }
+        height: 620px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .contac-whats .background-whastapp {
         height: 390px; } }
@@ -642,15 +648,18 @@ body main .team-company {
 
 body main .request2 {
   text-align: center;
-  background-color: #0064EF;
-  border-radius: 20px; }
+  border-radius: 20px;
+  height: 500px; }
   @media (min-width: 1025px) {
     body main .request2 {
       height: 801px;
-      border-radius: 0px; } }
+      border-radius: 0px;
+      background-color: #0064EF; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .request2 {
-      border-radius: 0px; } }
+      border-radius: 0px;
+      background-color: #0064EF;
+      height: 553px; } }
   @media (min-width: 1025px) {
     body main .request2 .desp {
       height: 130px; } }
@@ -705,7 +714,8 @@ body main .request2 {
     border: 1px solid #E6E6FA;
     width: 100%;
     border-radius: 20px;
-    height: 500px; }
+    height: 500px;
+    background-color: #0064EF; }
     @media (min-width: 1025px) {
       body main .request2 canvas {
         width: 73%; } }

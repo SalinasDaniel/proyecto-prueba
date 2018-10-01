@@ -5,11 +5,16 @@ body {
             text-align: center;
             @include breakpoint(desktop) {
                 text-align: left;
+                width: 85%;
+                margin-left: 7%;
             }
             @include breakpoint(tablet) {
                 text-align: left;
+                width: 85%;
+                margin-left: 7%;
             }
             .row {
+                margin-right: 0;
                 .col-sm-6 {
                     .contact {
                         margin-top: 46px;

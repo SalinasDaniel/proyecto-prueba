@@ -44,16 +44,16 @@ body {
                 .col-sm-3 {
                     margin-bottom: 30px;
                     .circle {
-                        width: 54%;
-                        height: 211px;
+                        width: 236px;
+                        height: 230px;
                         border: 1px solid #214A80;
                         border-radius: 118px;
                         @include breakpoint(desktop) {
-                            width: 89%;
+                            width: 195px;
                             height: 191px;
                         }
                         @include breakpoint(tablet) {
-                            width: 100%;
+                            width: 175px;
                             height: 172px;
                         }
                         img {
@@ -71,10 +71,11 @@ body {
                             margin-left: 0;
                             font-size: 12px;
                             @include breakpoint(desktop) {
-                                margin-top: 6px
+                                margin-top: 6px;
                             }
                             @include breakpoint(tablet) {
-                                margin-top: 6px
+                                margin-top: 6px;
+                                font-size: 11px;
                             }
                         }
                         .text2 {

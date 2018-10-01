@@ -10,9 +10,8 @@ body {
                 height: 263px;
                 width: 100%;
                 text-align: center;
-                background-size: 100% 100%;
                 @include breakpoint(desktop) {
-                    height: 485px;
+                    height: 620px;
                 }
                 @include breakpoint(tablet) {
                     height: 390px;

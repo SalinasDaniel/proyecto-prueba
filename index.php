@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <section class="container logo-contact">
+        <section class="logo-contact">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo>">
@@ -27,7 +27,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="contact">
-                        <h1><i class="fas fa-phone-volume"></i> 3128284788 <i class="fab fa-whatsapp"></i></h1>
+                        <h1><i class="fas fa-phone-volume"></i> 3173658826 <i class="fab fa-whatsapp"></i></h1>
                     </div>
                 </div>
             </div>
@@ -90,8 +90,9 @@
             <div class="line-vertical">
             </div>
             <div class="form-request">
+                <?php include 'validar.php'; ?>
                 <h2>Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
-                <form action="/action_page.php">
+                <form action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" method="post">
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" placeholder="Nombre">
                     </div>
@@ -101,6 +102,7 @@
                     <div class="form-group">
                         <input type="email" class="form-control" id="email" placeholder="Email">
                     </div>
+                    <input type="hidden" name="action" value="process_form">
                     <button type="submit" class="btn btn-primary">SOLICITAR AHORA</button>
                 </form>
             </div>
