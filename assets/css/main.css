@@ -242,7 +242,7 @@ body main .form-request {
         width: 17%; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .form-request form {
-        margin-top: 220px;
+        margin-top: 190px;
         margin-left: 43%;
         width: 29%; } }
     body main .form-request form .form-control {
@@ -766,7 +766,7 @@ body main .form-request {
         width: 17%; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .form-request .form2 {
-        margin-top: 220px;
+        margin-top: 190px;
         margin-left: 43%;
         width: 29%; } }
     body main .form-request .form2 .form-reques2 {
