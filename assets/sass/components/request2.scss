@@ -122,6 +122,7 @@ body {
             .form2 {
                 position: absolute;
                 margin-top: 270px;
+                margin-right: 53px;
                 @include breakpoint(desktop) {
                     margin-top: 178px;
                     margin-left: 48%;

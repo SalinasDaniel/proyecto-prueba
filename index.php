@@ -90,21 +90,8 @@
             <div class="line-vertical">
             </div>
             <div class="form-request">
-                <?php include 'validar.php'; ?>
                 <h2>Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
-                <form action="" method="post">
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                        <input type="number" class="form-control" id="number" placeholder="Numero">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                    </div>
-                    <input type="hidden" name="action" value="process_form">
-                    <button type="submit" class="btn btn-primary">SOLICITAR AHORA</button>
-                </form>
+                <?php echo do_shortcode('[contact-form-7 id="58" title="Sin título"]'); ?>
             </div>
             <canvas>
                 <h3>Su navegador no soporta canvas</h3>
@@ -281,18 +268,7 @@
             </div>
             <div class="form-request">
                 <h2 class="diagnosis-free">Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
-                <form class="form2" action="/action_page.php">
-                    <div class="form-group">
-                        <input type="text" class="form-control form-reques2" id="name" placeholder="Nombre">
-                    </div>
-                    <div class="form-group">
-                        <input type="number" class="form-control form-reques2" id="number" placeholder="Numero">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control form-reques2" id="email" placeholder="Email">
-                    </div>
-                    <button type="submit" class="btn btn-primary">SOLICITAR AHORA</button>
-                </form>
+                <?php echo do_shortcode('[contact-form-7 id="58" title="Sin título"]'); ?>
             </div>
             <canvas>
                     <h3>Su navegador no soporta canvas</h3>

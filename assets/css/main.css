@@ -233,7 +233,8 @@ body main .form-request {
         text-align: left; } }
   body main .form-request form {
     position: absolute;
-    margin-top: 270px; }
+    margin-top: 270px;
+    margin-right: 53px; }
     @media (min-width: 1025px) {
       body main .form-request form {
         margin-top: 178px;
@@ -756,7 +757,8 @@ body main .form-request {
         text-align: left; } }
   body main .form-request .form2 {
     position: absolute;
-    margin-top: 270px; }
+    margin-top: 270px;
+    margin-right: 53px; }
     @media (min-width: 1025px) {
       body main .form-request .form2 {
         margin-top: 178px;
