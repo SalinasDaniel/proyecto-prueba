@@ -150,7 +150,7 @@
                     <hr>
                     <p><strong>Descubre cómo <br>mejoran tus finanzas,<br></strong> el acompañamiento de nuestros expertos.</p>
                     <a>
-                        <button type="button" id="myBtn" class="btn btn-default">Conoce a fondo cómo te ayudamos</button>
+                        <button type="button" id="myBtn2" class="btn btn-default">Conoce a fondo cómo te ayudamos</button>
                     </a>
                 </div>
                 <div class="col-sm-8">
@@ -173,7 +173,7 @@
             </div>
         </section>
         <section class="button">
-            <button type="button" id="myBtn" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
+            <button type="button" id="myBtn3" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
         </section>
         <section class="strategy">
             <p class="title"><strong>Vamos a complementar tu equipo interno, <br>en conjunto diseñaremos y desarrollaremos</strong> una estrategia que potencie el beneficio financiero de tu empresa.</p>
@@ -325,10 +325,18 @@
             var modal = document.getElementById('myModal');
             // Get the button that opens the modal
             var btn = document.getElementById("myBtn");
+            var btn2 = document.getElementById("myBtn2");
+            var btn3 = document.getElementById("myBtn3");
             // Get the <span> element that closes the modal
             var span = document.getElementsByClassName("close")[0];
             // When the user clicks on the button, open the modal 
             btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            btn2.onclick = function() {
+                modal.style.display = "block";
+            }
+            btn3.onclick = function() {
                 modal.style.display = "block";
             }
             // When the user clicks on <span> (x), close the modal
