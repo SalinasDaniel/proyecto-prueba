@@ -2,7 +2,6 @@ body {
     main {
         .request2 {
             text-align: center;
-            border-radius: 20px;
             height: 500px;
             @include breakpoint(desktop) {
                 height: 801px;
@@ -74,14 +73,15 @@ body {
             canvas {
                 border: 1px solid #E6E6FA;
                 width: 100%;
-                border-radius: 20px;
                 height: 500px;
                 background-color: #0064EF;
                 @include breakpoint(desktop) {
                     width: 73%;
+                    border-radius: 20px;
                 }
                 @include breakpoint(tablet) {
                     width: 81%;
+                    border-radius: 20px;
                 }
             }
             .line-vertical {
@@ -103,17 +103,17 @@ body {
             .diagnosis-free {
                 position: absolute;
                 margin-top: 171px;
-                margin-left: -18%;
+                margin-left: 6%;
                 color: #ffffff;
                 @include breakpoint(desktop) {
-                    margin-top: 54px;
-                    margin-left: 48%;
+                    margin-top: 6%;
+                    margin-left: 65%;
                     width: 18%;
                     text-align: left;
                 }
                 @include breakpoint(tablet) {
                     margin-top: 54px;
-                    margin-left: 43%;
+                    margin-left: 61%;
                     width: 30%;
                     text-align: left;
                 }

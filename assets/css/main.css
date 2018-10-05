@@ -240,7 +240,7 @@ body main .form-request h2 {
       width: 84%; } }
   @media (min-width: 1025px) {
     body main .form-request h2 {
-      margin-top: 54px;
+      margin-top: 7%;
       margin-left: 64%;
       text-align: left; } }
   @media (min-width: 668px) and (max-width: 1024px) {
@@ -688,7 +688,6 @@ body main .team-company {
 
 body main .request2 {
   text-align: center;
-  border-radius: 20px;
   height: 500px; }
   @media (min-width: 1025px) {
     body main .request2 {
@@ -753,15 +752,16 @@ body main .request2 {
   body main .request2 canvas {
     border: 1px solid #E6E6FA;
     width: 100%;
-    border-radius: 20px;
     height: 500px;
     background-color: #0064EF; }
     @media (min-width: 1025px) {
       body main .request2 canvas {
-        width: 73%; } }
+        width: 73%;
+        border-radius: 20px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .request2 canvas {
-        width: 81%; } }
+        width: 81%;
+        border-radius: 20px; } }
   @media (min-width: 1025px) {
     body main .request2 .line-vertical {
       border-left: 1px solid #E6E6FA;
@@ -778,18 +778,18 @@ body main .request2 {
 body main .form-request .diagnosis-free {
   position: absolute;
   margin-top: 171px;
-  margin-left: -18%;
+  margin-left: 6%;
   color: #ffffff; }
   @media (min-width: 1025px) {
     body main .form-request .diagnosis-free {
-      margin-top: 54px;
-      margin-left: 48%;
+      margin-top: 6%;
+      margin-left: 65%;
       width: 18%;
       text-align: left; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .form-request .diagnosis-free {
       margin-top: 54px;
-      margin-left: 43%;
+      margin-left: 61%;
       width: 30%;
       text-align: left; } }
 
