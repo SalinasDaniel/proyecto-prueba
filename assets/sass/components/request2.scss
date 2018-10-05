@@ -2,7 +2,7 @@ body {
     main {
         .request2 {
             text-align: center;
-            height: 500px;
+            height: 593px;
             @include breakpoint(desktop) {
                 height: 801px;
                 border-radius: 0px;
@@ -38,13 +38,36 @@ body {
                     font-size: 32px;
                     width: 41%;
                     text-align: left;
-                    margin-left: 17%;
+                    margin-left: 15%;
                 }
                 .text1 {
                     font-weight: 900;
+                    padding-left: 9%;
+                    padding-right: 9%;
+                    padding-top: 6%;
+                    @include breakpoint(tablet) {
+                        padding-left: 0;
+                        padding-right: 0;
+                        padding-top: 0;
+                    }
+                    @include breakpoint(desktop) {
+                        padding-left: 0;
+                        padding-right: 0;
+                        padding-top: 0;
+                    }
                 }
                 .text2 {
                     font-weight: 400;
+                    padding-left: 9%;
+                    padding-right: 9%;
+                    @include breakpoint(tablet) {
+                        padding-left: 0%;
+                        padding-right: 0%;
+                    }
+                    @include breakpoint(desktop) {
+                        padding-left: 0%;
+                        padding-right: 0%;
+                    }
                 }
                 img {
                     display: none;
@@ -62,6 +85,7 @@ body {
                 hr {
                     width: 100%;
                     background-color: #E6E6FA;
+                    margin-top: 31px;
                     @include breakpoint(desktop) {
                         display: none;
                     }
@@ -75,6 +99,9 @@ body {
                 width: 100%;
                 height: 500px;
                 background-color: #0064EF;
+                @include breakpoint(phone) {
+                    height: 593px;
+                }
                 @include breakpoint(desktop) {
                     width: 73%;
                     border-radius: 20px;
@@ -82,6 +109,8 @@ body {
                 @include breakpoint(tablet) {
                     width: 81%;
                     border-radius: 20px;
+                    height: 477px;
+                    margin-top: 23px;
                 }
             }
             .line-vertical {
@@ -93,67 +122,76 @@ body {
                 }
                 @include breakpoint(tablet) {
                     border-left: 1px solid #E6E6FA;
-                    height: 500px;
+                    height: 477px;
                     position: absolute;
                     margin-left: 57%;
+                    margin-top: 23px;
                 }
             }
-        }
-        .form-request {
-            .diagnosis-free {
-                position: absolute;
-                margin-top: 171px;
-                margin-left: 6%;
-                color: #ffffff;
-                @include breakpoint(desktop) {
-                    margin-top: 6%;
-                    margin-left: 65%;
-                    width: 18%;
-                    text-align: left;
-                }
-                @include breakpoint(tablet) {
-                    margin-top: 54px;
-                    margin-left: 61%;
-                    width: 30%;
-                    text-align: left;
-                }
-            }
-            .form2 {
-                position: absolute;
-                margin-top: 270px;
-                margin-right: 53px;
-                @include breakpoint(desktop) {
-                    margin-top: 178px;
-                    margin-left: 48%;
-                    width: 17%;
-                }
-                @include breakpoint(tablet) {
-                    margin-top: 190px;
-                    margin-left: 43%;
-                    width: 29%;
-                }
-                .form-reques2 {
-                    background-color: transparent;
-                    border-color: #ffffff;
+            .form-request2 {
+                .diagnosis-free2 {
+                    position: absolute;
+                    padding-right: 5%;
+                    padding-left: 7%;
+                    padding-top: 67%;
+                    color: #ffffff;
                     @include breakpoint(desktop) {
-                        height: 51px;
+                        padding-top: 6%;
+                        margin-left: 64%;
+                        width: 23%;
+                        text-align: left;
+                        padding-right: 0;
+                        padding-left: 0;
                     }
                     @include breakpoint(tablet) {
-                        height: 51px;
+                        padding-top: 7%;
+                        margin-left: 61%;
+                        width: 34%;
+                        text-align: left;
+                        padding-right: 0;
+                        padding-left: 0;
                     }
                 }
-                 ::placeholder {
-                    color: #FFFFFF;
-                }
-                .btn-primary {
-                    background-color: #F37421;
-                    border-color: #F37421;
-                    width: 100%;
-                    @include breakpoint(desktop) {
-                        height: 51px;
-                    }
-                    @include breakpoint(tablet) {
-                        height: 51px;
+                .form2 {
+                    .form-second {
+                        position: absolute;
+                        padding-right: 13%;
+                        padding-left: 19%;
+                        margin-top: 352px;
+                        @include breakpoint(desktop) {
+                            margin-top: 205px;
+                            padding-left: 65%;
+                            padding-right: 16%;
+                        }
+                        @include breakpoint(tablet) {
+                            margin-top: 218px;
+                            padding-left: 60%;
+                            padding-right: 13%;
+                        }
+                        .form-reques2 {
+                            background-color: transparent;
+                            border-color: #ffffff;
+                            @include breakpoint(desktop) {
+                                height: 51px;
+                            }
+                            @include breakpoint(tablet) {
+                                height: 51px;
+                            }
+                        }
+                         ::placeholder {
+                            color: #FFFFFF;
+                        }
+                        .btn-primary {
+                            background-color: #F37421;
+                            border-color: #F37421;
+                            width: 100%;
+                            @include breakpoint(desktop) {
+                                height: 51px;
+                            }
+                            @include breakpoint(tablet) {
+                                height: 51px;
+                            }
+                        }
                     }
                 }
             }

@@ -66,6 +66,7 @@ body {
                 height: 500px;
                 @include breakpoint(phone) {
                     box-shadow: 1px 1px 1px 3px #999;
+                    height: 525px;
                 }
                 @include breakpoint(desktop) {
                     width: 73%;
@@ -113,16 +114,17 @@ body {
             form {
                 position: absolute;
                 margin-top: 270px;
-                margin-right: 53px;
+                padding-right: 17%;
+                padding-left: 13%;
                 @include breakpoint(desktop) {
                     margin-top: 178px;
-                    margin-left: 48%;
-                    width: 17%;
+                    padding-left: 64%;
+                    padding-right: 16%;
                 }
                 @include breakpoint(tablet) {
                     margin-top: 190px;
-                    margin-left: 43%;
-                    width: 29%;
+                    padding-left: 60%;
+                    padding-right: 13%;
                 }
                 .form-control {
                     border-color: #000000;

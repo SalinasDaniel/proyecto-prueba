@@ -90,7 +90,18 @@
             </div>
             <div class="form-request">
                 <h2>Solicita hoy tu<br>diagnóstico <strong>gratis</strong></h2>	
-                
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="emailahh">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="pwdauuu">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" id="pwdaii">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
             <canvas>
                 <h3>Su navegador no soporta canvas</h3>
@@ -101,9 +112,35 @@
                 <div class="text">
                     <p><strong>Precios bajos que se adaptan a todos los tamaños de empresa y presupuestos.</strong> Tomar buenas decisiones no cuesta más.</p>
                 </div>
-                <a href="#">
-                    <button type="button" class="btn btn-default"><strong>SOLICITAR DIAGNÓSTICO GRATUITO AHORA</strong></button>
-                </a>
+                <button type="button" id="myBtn" class="btn btn-default"><strong>SOLICITAR DIAGNÓSTICO GRATUITO AHORA</strong></button>
+            </div>
+            <div class="popup">
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p>Evita sanciones por el incumplimiento de la ley. Tu tranquilidad empieza con una tributación sana.</p>
+                                <img src="assets/images/flechablanca.png" alt="Diagnostico">
+                            </div>
+                            <div class="col-sm-6">
+                                <h2>Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
+                                <form action="/action_page.php">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="emailsqyhh">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="pwdsjkn">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="aa" class="form-control" id="pwdfff">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="comprehensive-advice">
@@ -112,8 +149,8 @@
                     <h6>Asesoría Integral</h6>
                     <hr>
                     <p><strong>Descubre cómo <br>mejoran tus finanzas,<br></strong> el acompañamiento de nuestros expertos.</p>
-                    <a href="#">
-                        <button type="button" class="btn btn-default">Conoce a fondo cómo te ayudamos</button>
+                    <a>
+                        <button type="button" id="myBtn" class="btn btn-default">Conoce a fondo cómo te ayudamos</button>
                     </a>
                 </div>
                 <div class="col-sm-8">
@@ -136,9 +173,7 @@
             </div>
         </section>
         <section class="button">
-            <a href="#">
-                <button type="button" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
-            </a>
+            <button type="button" id="myBtn" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
         </section>
         <section class="strategy">
             <p class="title"><strong>Vamos a complementar tu equipo interno, <br>en conjunto diseñaremos y desarrollaremos</strong> una estrategia que potencie el beneficio financiero de tu empresa.</p>
@@ -244,7 +279,7 @@
                     <div class="content">
                         <div class="description-alianze">
                             <br><br>
-                            <p>SOMOS EL<br><br>ALIADO QUE<br><br><strong> APOYA TU<br><br>ENTENDIMIENTO<br><br>FINANCIERO<strong></p>
+                            <p>SOMOS EL<br><br>ALIADO QUE<br><br><strong> APOYA TU<br><br>ENTENDIMIENTO<br><br>FINANCIERO</strong></p>
                         </div>
                         <div class="alliance">
                             <img src="assets/images/logoalinazaasys.png" alt="Alianza">
@@ -264,14 +299,49 @@
             </div>
             <div class="line-vertical">
             </div>
-            <div class="form-request">
-                <h2 class="diagnosis-free">Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
-                
+            <div class="form-request2">
+                <h2 class="diagnosis-free2">Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
+                <div class="form2">
+                    <form action="/action_page.php" class="form-second">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="emailyy">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="pwdastt">
+                        </div>
+                        <div class="form-group">
+                            <input type="pasasword" class="form-control" id="pwasrr">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
             </div>
             <canvas>
-                    <h3>Su navegador no soporta canvas</h3>
-                </canvas>
+                <h3>Su navegador no soporta canvas</h3>
+            </canvas>
         </section>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+            // Get the button that opens the modal
+            var btn = document.getElementById("myBtn");
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            // When the user clicks on the button, open the modal 
+            btn.onclick = function() {
+                modal.style.display = "block";
+            }
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
     </main>
     <footer>
         <div class="row">
