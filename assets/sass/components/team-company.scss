@@ -5,7 +5,7 @@ body {
             text-align: center;
             h1 {
                 font-size: 18px;
-                padding-top: 32px;
+                padding-top: 59px;
                 @include breakpoint(desktop) {
                     font-size: 32px;
                     padding-top: 150px;
@@ -20,13 +20,16 @@ body {
                 .col-sm-4 {
                     text-align: -webkit-center;
                     margin-bottom: 95px;
+                    @include breakpoint(phone) {
+                        padding-left: 6%;
+                    }
                     @include breakpoint(desktop) {
                         margin-right: -123px;
                     }
                 }
                 .content {
                     background-color: #FFFFFF;
-                    width: 77%;
+                    width: 88%;
                     text-align: left;
                     color: #214A80;
                     height: 106%;
@@ -67,17 +70,23 @@ body {
                 }
             }
             .row-1 {
-                margin-top: 31px;
+                margin-top: 48px;
                 margin-bottom: 26px;
                 @include breakpoint(desktop) {
                     margin-top: 124px;
                 }
                 @include breakpoint(tablet) {
                     margin-top: 124px;
+                    padding-left: 9%;
+                    padding-right: 8%;
                 }
             }
             .row-2 {
                 margin-bottom: 65px;
+                @include breakpoint(tablet) {
+                    padding-left: 9%;
+                    padding-right: 8%;
+                }
             }
         }
     }
