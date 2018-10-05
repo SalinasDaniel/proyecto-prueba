@@ -1,16 +1,16 @@
 body {
     main {
         .diagnosis {
-            height: 305px;
-            margin-top: 36px;
+            margin-top: 140px;
             text-align: center;
             @include breakpoint(desktop) {
-                margin-top: 241px;
-                height: 681px;
+                margin-top: 280px;
+                height: 563px;
                 text-align: left;
             }
             @include breakpoint(tablet) {
                 text-align: left;
+                height: 563px;
             }
             .image {
                 background: linear-gradient(to left, rgba(255, 255, 255, 0), #FF9300), url('../images/diagnostico.png');
@@ -22,22 +22,30 @@ body {
                 @include breakpoint(desktop) {
                     height: 681px;
                 }
+                @include breakpoint(tablet) {
+                    height: 681px;
+                }
                 .text {
                     color: #FFFFFF;
                     p {
-                        margin-top: 70px;
+                        margin-top: 47px;
                         position: absolute;
+                        @include breakpoint(phone) {
+                            width: 100%;
+                            padding-right: 16%;
+                            padding-left: 11%;
+                        }
                         @include breakpoint(desktop) {
                             font-size: 32px;
-                            margin-left: 8%;
-                            width: 50%;
-                            margin-top: 205px;
+                            padding-left: 8%;
+                            padding-right: 44%;
+                            margin-top: 152px;
                         }
                         @include breakpoint(tablet) {
                             font-size: 32px;
-                            margin-left: 2%;
-                            width: 96%;
-                            margin-top: 8px;
+                            padding-left: 8%;
+                            padding-right: 15%;
+                            margin-top: 151px;
                         }
                     }
                 }
@@ -46,15 +54,22 @@ body {
                     background-color: #FFFFFF;
                     margin-top: 198px;
                     color: #FF9300;
+                    @include breakpoint(phone) {
+                        width: 76%;
+                        strong {
+                            font-size: 19px;
+                            white-space: normal;
+                        }
+                    }
                     @include breakpoint(desktop) {
                         margin-left: 8%;
                         font-size: 19px;
-                        margin-top: 376px;
+                        margin-top: 321px;
                     }
                     @include breakpoint(tablet) {
-                        margin-left: 3%;
+                        margin-left: 8%;
                         font-size: 19px;
-                        margin-top: 198px;
+                        margin-top: 364px;
                     }
                 }
                 .btn-default:hover {

@@ -6,15 +6,19 @@ body {
                 .col-sm-6 {
                     .description-headboard {
                         margin-top: 25px;
-                        margin-left: 15%;
                         color: #05283C;
+                        padding-left: 13%;
+                        padding-right: 13%;
                         @include breakpoint(desktop) {
-                            text-align: left;
                             font-size: 32px;
                             margin-top: 130px;
+                            padding-left: 13%;
+                            padding-right: 21%;
                         }
                         @include breakpoint(tablet) {
                             font-size: 25px;
+                            padding-left: 14%;
+                            padding-right: 0%;
                         }
                         hr {
                             margin-left: 0%;

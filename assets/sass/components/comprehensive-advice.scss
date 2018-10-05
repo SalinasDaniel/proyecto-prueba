@@ -8,13 +8,15 @@ body {
             .row-1 {
                 .col-sm-4 {
                     @include breakpoint(desktop) {
-                        margin-left: 98px
+                        margin-left: 2%;
                     }
                     h6 {
                         margin-top: 32px;
                         margin-left: 7%;
+                        color: #000000;
+                        font-weight: bold;
                         @include breakpoint(desktop) {
-                            margin-top: 266px;
+                            margin-top: 350px;
                             font-size: 22px;
                         }
                         @include breakpoint(tablet) {
@@ -66,13 +68,15 @@ body {
                         max-width: 58.666667%;
                     }
                     img {
-                        margin-left: 4%;
                         margin-top: 25px;
                         width: 100%;
+                        margin-left: 5%;
                         @include breakpoint(desktop) {
-                            margin-left: 31%;
                             margin-top: 168px;
-                            width: 72%;
+                            margin-left: 12%;
+                        }
+                        @include breakpoint(tablet) {
+                            margin-left: 2%;
                         }
                     }
                 }
@@ -88,16 +92,16 @@ body {
                 }
                 .col-sm-4 {
                     color: #606060;
+                    margin-bottom: 150px;
                     img {
                         @include breakpoint(desktop) {
                             float: left;
                         }
                     }
                     p {
-                        margin-bottom: 30px;
                         font-size: 22px;
+                        font-weight: bold;
                         @include breakpoint(desktop) {
-                            margin-bottom: 109px;
                             width: 48%;
                             text-align: left;
                             margin-top: 13px;

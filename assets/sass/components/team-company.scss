@@ -19,7 +19,7 @@ body {
                 margin-right: 0;
                 .col-sm-4 {
                     text-align: -webkit-center;
-                    margin-bottom: 20px;
+                    margin-bottom: 95px;
                     @include breakpoint(desktop) {
                         margin-right: -123px;
                     }
@@ -27,12 +27,11 @@ body {
                 .content {
                     background-color: #FFFFFF;
                     width: 77%;
-                    height: 477px;
                     text-align: left;
                     color: #214A80;
+                    height: 106%;
                     @include breakpoint(desktop) {
-                        width: 55%;
-                        height: 429px;
+                        width: 45%;
                         margin-left: 50%;
                     }
                     img {
@@ -50,12 +49,11 @@ body {
                         }
                     }
                     .description-alianze {
-                        font-size: 22px;
+                        font-size: 19px;
                         @include breakpoint(tablet) {
                             font-size: 19px;
                         }
                         p {
-                            padding-top: 78px;
                             text-align: center;
                         }
                     }
@@ -70,6 +68,7 @@ body {
             }
             .row-1 {
                 margin-top: 31px;
+                margin-bottom: 26px;
                 @include breakpoint(desktop) {
                     margin-top: 124px;
                 }

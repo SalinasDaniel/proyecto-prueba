@@ -38,16 +38,20 @@ body header .headboard .row {
   margin-right: 0; }
   body header .headboard .row .col-sm-6 .description-headboard {
     margin-top: 25px;
-    margin-left: 15%;
-    color: #05283C; }
+    color: #05283C;
+    padding-left: 13%;
+    padding-right: 13%; }
     @media (min-width: 1025px) {
       body header .headboard .row .col-sm-6 .description-headboard {
-        text-align: left;
         font-size: 32px;
-        margin-top: 130px; } }
+        margin-top: 130px;
+        padding-left: 13%;
+        padding-right: 21%; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body header .headboard .row .col-sm-6 .description-headboard {
-        font-size: 25px; } }
+        font-size: 25px;
+        padding-left: 14%;
+        padding-right: 0%; } }
     body header .headboard .row .col-sm-6 .description-headboard hr {
       margin-left: 0%;
       width: 7%;
@@ -61,20 +65,32 @@ body header .headboard .row {
         margin-top: -80px;
         margin-left: 0%; } }
 
-body main hr {
-  width: 85%; }
+body main .services hr {
+  width: 85%;
+  margin-top: 70px; }
+  @media (min-width: 1025px) {
+    body main .services hr {
+      margin-top: 130px; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .services hr {
+      margin-top: 130px; } }
 
 body main .services .title {
   color: #05283C;
-  margin-left: 7%; }
+  padding-left: 14%;
+  padding-right: 14%;
+  margin-top: 70px;
+  text-align: center; }
   @media (min-width: 1025px) {
     body main .services .title {
-      margin-left: 20%;
-      margin-top: 152px; } }
+      margin-left: 21%;
+      margin-top: 180px;
+      padding-left: 0;
+      padding-right: 0; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .services .title {
-      margin-left: 20%;
-      margin-top: 152px; } }
+      padding-left: 4%;
+      padding-right: 4%; } }
   body main .services .title h3 {
     font-size: 18px;
     font-weight: 300; }
@@ -86,8 +102,7 @@ body main .services .title {
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .services .title h3 {
         font-size: 32px;
-        text-align: center;
-        width: 83%; } }
+        text-align: center; } }
 
 body main .services .list-services {
   margin-top: 40px;
@@ -97,9 +112,12 @@ body main .services .list-services {
       margin-top: 100px; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .services .list-services {
-      margin-top: 100px; } }
+      margin-top: 100px;
+      padding-left: 4%;
+      padding-right: 4%; } }
   body main .services .list-services .row {
-    margin-right: 0; }
+    margin-right: 0;
+    color: #000000; }
     @media (min-width: 1025px) {
       body main .services .list-services .row {
         width: 70%;
@@ -112,61 +130,58 @@ body main .services .list-services {
       margin-bottom: 7px; }
     body main .services .list-services .row .col-sm-3 h6 {
       font-size: 22px;
-      width: 50%;
-      margin-left: 25%; }
-      @media (min-width: 1025px) {
-        body main .services .list-services .row .col-sm-3 h6 {
-          width: 79%;
-          margin-left: 13%; } }
-      @media (min-width: 668px) and (max-width: 1024px) {
-        body main .services .list-services .row .col-sm-3 h6 {
-          width: 78%;
-          margin-left: 13%; } }
+      font-weight: bold;
+      margin-top: 21px; }
     body main .services .list-services .row .col-sm-3 p {
-      font-size: 12px;
-      width: 50%;
-      margin-left: 25%; }
+      padding-left: 14%;
+      padding-right: 14%;
+      margin-top: 30px; }
       @media (min-width: 1025px) {
         body main .services .list-services .row .col-sm-3 p {
-          width: 82%;
-          margin-left: 13%; } }
+          padding-left: 19%;
+          padding-right: 19%;
+          font-size: 12px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .services .list-services .row .col-sm-3 p {
-          width: 82%;
-          margin-left: 13%; } }
+          padding-left: 0%;
+          padding-right: 0%;
+          font-size: 12px; } }
 
 body main .request {
   text-align: center;
-  margin-top: 25px; }
+  margin-top: 120px;
+  margin-right: 8%;
+  margin-left: 8%; }
   @media (min-width: 1025px) {
     body main .request {
-      margin-top: 181px; } }
+      margin-top: 181px;
+      margin-right: 0;
+      margin-left: 0; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .request {
-      margin-top: 100px; } }
+      margin-top: 100px;
+      margin-right: 0;
+      margin-left: 0; } }
   body main .request .description {
     position: absolute;
     margin-top: 27px;
-    color: #F26739;
-    width: 100%; }
+    color: #F26739; }
+    @media (max-width: 667px) {
+      body main .request .description {
+        width: 84%; } }
     @media (min-width: 1025px) {
       body main .request .description {
         margin-top: 7%;
         font-size: 32px;
-        width: 30%;
         text-align: left;
         margin-left: 24%; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .request .description {
-        margin-top: 50px;
-        font-size: 32px;
-        width: 42%;
+        margin-top: 54px;
+        font-size: 29px;
         text-align: left;
-        margin-left: 17%; } }
-    body main .request .description .text1 {
-      font-weight: 900; }
-    body main .request .description .text2 {
-      font-weight: 400; }
+        padding-left: 14%;
+        padding-right: 44%; } }
     body main .request .description img {
       display: none; }
       @media (min-width: 1025px) {
@@ -181,7 +196,7 @@ body main .request {
           display: block; } }
     body main .request .description hr {
       width: 100%;
-      background-color: #E6E6FA; }
+      background-color: #000000; }
       @media (min-width: 1025px) {
         body main .request .description hr {
           display: none; } }
@@ -189,10 +204,13 @@ body main .request {
         body main .request .description hr {
           display: none; } }
   body main .request canvas {
-    border: 1px solid #c1c1c1;
+    border: 1px solid #000000;
     width: 100%;
     border-radius: 20px;
     height: 500px; }
+    @media (max-width: 667px) {
+      body main .request canvas {
+        box-shadow: 1px 1px 1px 3px #999; } }
     @media (min-width: 1025px) {
       body main .request canvas {
         width: 73%; } }
@@ -201,72 +219,73 @@ body main .request {
         width: 81%; } }
   @media (min-width: 1025px) {
     body main .request .line-vertical {
-      border-left: 1px solid #c1c1c1;
+      border-left: 1px solid #000000;
       height: 500px;
       position: absolute;
       margin-left: 61%; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .request .line-vertical {
-      border-left: 1px solid #c1c1c1;
+      border-left: 1px solid #000000;
       height: 500px;
       position: absolute;
       margin-left: 57%; } }
 
-body main .form-request {
-  margin-left: 17%; }
-  body main .form-request h2 {
-    position: absolute;
-    margin-top: 171px;
-    margin-left: -18%;
-    color: #05283C; }
+body main .form-request h2 {
+  position: absolute;
+  margin-top: 171px;
+  color: #05283C; }
+  @media (max-width: 667px) {
+    body main .form-request h2 {
+      font-size: 26px;
+      width: 84%; } }
+  @media (min-width: 1025px) {
+    body main .form-request h2 {
+      margin-top: 54px;
+      margin-left: 64%;
+      text-align: left; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .form-request h2 {
+      margin-top: 54px;
+      margin-left: 60%;
+      text-align: left;
+      padding-right: 4%; } }
+
+body main .form-request form {
+  position: absolute;
+  margin-top: 270px;
+  margin-right: 53px; }
+  @media (min-width: 1025px) {
+    body main .form-request form {
+      margin-top: 178px;
+      margin-left: 48%;
+      width: 17%; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .form-request form {
+      margin-top: 190px;
+      margin-left: 43%;
+      width: 29%; } }
+  body main .form-request form .form-control {
+    border-color: #000000; }
     @media (min-width: 1025px) {
-      body main .form-request h2 {
-        margin-top: 54px;
-        margin-left: 48%;
-        width: 18%;
-        text-align: left; } }
+      body main .form-request form .form-control {
+        height: 51px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
-      body main .form-request h2 {
-        margin-top: 54px;
-        margin-left: 43%;
-        width: 30%;
-        text-align: left; } }
-  body main .form-request form {
-    position: absolute;
-    margin-top: 270px;
-    margin-right: 53px; }
+      body main .form-request form .form-control {
+        height: 51px; } }
+  body main .form-request form .btn-primary {
+    background-color: #F37421;
+    border-color: #F37421;
+    width: 100%; }
     @media (min-width: 1025px) {
-      body main .form-request form {
-        margin-top: 178px;
-        margin-left: 48%;
-        width: 17%; } }
+      body main .form-request form .btn-primary {
+        height: 51px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
-      body main .form-request form {
-        margin-top: 190px;
-        margin-left: 43%;
-        width: 29%; } }
-    body main .form-request form .form-control {
-      border-color: #000000; }
-      @media (min-width: 1025px) {
-        body main .form-request form .form-control {
-          height: 51px; } }
-      @media (min-width: 668px) and (max-width: 1024px) {
-        body main .form-request form .form-control {
-          height: 51px; } }
-    body main .form-request form .btn-primary {
-      background-color: #F37421;
-      border-color: #F37421;
-      width: 100%; }
-      @media (min-width: 1025px) {
-        body main .form-request form .btn-primary {
-          height: 51px; } }
-      @media (min-width: 668px) and (max-width: 1024px) {
-        body main .form-request form .btn-primary {
-          height: 51px; } }
-    body main .form-request form .btn-primary:hover {
-      background-color: #FFFFFF;
-      color: #F37421;
-      border-color: #F26739; }
+      body main .form-request form .btn-primary {
+        height: 51px; } }
+  body main .form-request form .btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #F37421;
+    border-color: #F26739; }
 
 body footer {
   background-color: #111231; }
@@ -306,17 +325,17 @@ body footer {
           margin-bottom: 40px; } }
 
 body main .diagnosis {
-  height: 305px;
-  margin-top: 36px;
+  margin-top: 140px;
   text-align: center; }
   @media (min-width: 1025px) {
     body main .diagnosis {
-      margin-top: 241px;
-      height: 681px;
+      margin-top: 280px;
+      height: 563px;
       text-align: left; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .diagnosis {
-      text-align: left; } }
+      text-align: left;
+      height: 563px; } }
   body main .diagnosis .image {
     background: linear-gradient(to left, rgba(255, 255, 255, 0), #FF9300), url("../images/diagnostico.png");
     height: 305px;
@@ -327,38 +346,52 @@ body main .diagnosis {
     @media (min-width: 1025px) {
       body main .diagnosis .image {
         height: 681px; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .diagnosis .image {
+        height: 681px; } }
     body main .diagnosis .image .text {
       color: #FFFFFF; }
       body main .diagnosis .image .text p {
-        margin-top: 70px;
+        margin-top: 47px;
         position: absolute; }
+        @media (max-width: 667px) {
+          body main .diagnosis .image .text p {
+            width: 100%;
+            padding-right: 16%;
+            padding-left: 11%; } }
         @media (min-width: 1025px) {
           body main .diagnosis .image .text p {
             font-size: 32px;
-            margin-left: 8%;
-            width: 50%;
-            margin-top: 205px; } }
+            padding-left: 8%;
+            padding-right: 44%;
+            margin-top: 152px; } }
         @media (min-width: 668px) and (max-width: 1024px) {
           body main .diagnosis .image .text p {
             font-size: 32px;
-            margin-left: 2%;
-            width: 96%;
-            margin-top: 8px; } }
+            padding-left: 8%;
+            padding-right: 15%;
+            margin-top: 151px; } }
     body main .diagnosis .image .btn-default {
       font-size: 11px;
       background-color: #FFFFFF;
       margin-top: 198px;
       color: #FF9300; }
+      @media (max-width: 667px) {
+        body main .diagnosis .image .btn-default {
+          width: 76%; }
+          body main .diagnosis .image .btn-default strong {
+            font-size: 19px;
+            white-space: normal; } }
       @media (min-width: 1025px) {
         body main .diagnosis .image .btn-default {
           margin-left: 8%;
           font-size: 19px;
-          margin-top: 376px; } }
+          margin-top: 321px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .diagnosis .image .btn-default {
-          margin-left: 3%;
+          margin-left: 8%;
           font-size: 19px;
-          margin-top: 198px; } }
+          margin-top: 364px; } }
     body main .diagnosis .image .btn-default:hover {
       background-color: #F26739;
       color: #FFFFFF;
@@ -370,13 +403,15 @@ body main .comprehensive-advice {
     margin-right: 0; }
   @media (min-width: 1025px) {
     body main .comprehensive-advice .row-1 .col-sm-4 {
-      margin-left: 98px; } }
+      margin-left: 2%; } }
   body main .comprehensive-advice .row-1 .col-sm-4 h6 {
     margin-top: 32px;
-    margin-left: 7%; }
+    margin-left: 7%;
+    color: #000000;
+    font-weight: bold; }
     @media (min-width: 1025px) {
       body main .comprehensive-advice .row-1 .col-sm-4 h6 {
-        margin-top: 266px;
+        margin-top: 350px;
         font-size: 22px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .comprehensive-advice .row-1 .col-sm-4 h6 {
@@ -418,14 +453,16 @@ body main .comprehensive-advice {
     body main .comprehensive-advice .row-1 .col-sm-8 {
       max-width: 58.666667%; } }
   body main .comprehensive-advice .row-1 .col-sm-8 img {
-    margin-left: 4%;
     margin-top: 25px;
-    width: 100%; }
+    width: 100%;
+    margin-left: 5%; }
     @media (min-width: 1025px) {
       body main .comprehensive-advice .row-1 .col-sm-8 img {
-        margin-left: 31%;
         margin-top: 168px;
-        width: 72%; } }
+        margin-left: 12%; } }
+    @media (min-width: 668px) and (max-width: 1024px) {
+      body main .comprehensive-advice .row-1 .col-sm-8 img {
+        margin-left: 2%; } }
   body main .comprehensive-advice .row-2 {
     text-align: center; }
     @media (min-width: 1025px) {
@@ -436,16 +473,16 @@ body main .comprehensive-advice {
       body main .comprehensive-advice .row-2 {
         margin-top: 60px; } }
     body main .comprehensive-advice .row-2 .col-sm-4 {
-      color: #606060; }
+      color: #606060;
+      margin-bottom: 150px; }
       @media (min-width: 1025px) {
         body main .comprehensive-advice .row-2 .col-sm-4 img {
           float: left; } }
       body main .comprehensive-advice .row-2 .col-sm-4 p {
-        margin-bottom: 30px;
-        font-size: 22px; }
+        font-size: 22px;
+        font-weight: bold; }
         @media (min-width: 1025px) {
           body main .comprehensive-advice .row-2 .col-sm-4 p {
-            margin-bottom: 109px;
             width: 48%;
             text-align: left;
             margin-top: 13px;
@@ -472,7 +509,7 @@ body main .strategy {
   text-align: left; }
   @media (min-width: 1025px) {
     body main .strategy {
-      margin-top: 200px; } }
+      margin-top: 230px; } }
   @media (min-width: 668px) and (max-width: 1024px) {
     body main .strategy {
       margin-top: 60px; } }
@@ -556,10 +593,13 @@ body main .contac-whats {
     text-align: center; }
     @media (min-width: 1025px) {
       body main .contac-whats .background-whastapp {
-        height: 620px; } }
+        height: 800px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
       body main .contac-whats .background-whastapp {
         height: 390px; } }
+    @media (min-width: 1025px) {
+      body main .contac-whats .background-whastapp p:nth-child(1) {
+        padding-top: 173px; } }
     body main .contac-whats .background-whastapp p {
       color: #214A80; }
       @media (min-width: 1025px) {
@@ -599,20 +639,19 @@ body main .team-company {
     margin-right: 0; }
     body main .team-company .row .col-sm-4 {
       text-align: -webkit-center;
-      margin-bottom: 20px; }
+      margin-bottom: 95px; }
       @media (min-width: 1025px) {
         body main .team-company .row .col-sm-4 {
           margin-right: -123px; } }
     body main .team-company .row .content {
       background-color: #FFFFFF;
       width: 77%;
-      height: 477px;
       text-align: left;
-      color: #214A80; }
+      color: #214A80;
+      height: 106%; }
       @media (min-width: 1025px) {
         body main .team-company .row .content {
-          width: 55%;
-          height: 429px;
+          width: 45%;
           margin-left: 50%; } }
       body main .team-company .row .content img {
         width: 100%; }
@@ -625,19 +664,19 @@ body main .team-company {
         body main .team-company .row .content .description h6 {
           font-weight: 900; }
       body main .team-company .row .content .description-alianze {
-        font-size: 22px; }
+        font-size: 19px; }
         @media (min-width: 668px) and (max-width: 1024px) {
           body main .team-company .row .content .description-alianze {
             font-size: 19px; } }
         body main .team-company .row .content .description-alianze p {
-          padding-top: 78px;
           text-align: center; }
       body main .team-company .row .content .alliance img {
         width: 70%;
         margin-top: 32px;
         margin-left: 12%; }
   body main .team-company .row-1 {
-    margin-top: 31px; }
+    margin-top: 31px;
+    margin-bottom: 26px; }
     @media (min-width: 1025px) {
       body main .team-company .row-1 {
         margin-top: 124px; } }
@@ -736,57 +775,56 @@ body main .request2 {
       position: absolute;
       margin-left: 57%; } }
 
-body main .form-request {
-  margin-left: 17%; }
-  body main .form-request .diagnosis-free {
-    position: absolute;
-    margin-top: 171px;
-    margin-left: -18%;
-    color: #ffffff; }
+body main .form-request .diagnosis-free {
+  position: absolute;
+  margin-top: 171px;
+  margin-left: -18%;
+  color: #ffffff; }
+  @media (min-width: 1025px) {
+    body main .form-request .diagnosis-free {
+      margin-top: 54px;
+      margin-left: 48%;
+      width: 18%;
+      text-align: left; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .form-request .diagnosis-free {
+      margin-top: 54px;
+      margin-left: 43%;
+      width: 30%;
+      text-align: left; } }
+
+body main .form-request .form2 {
+  position: absolute;
+  margin-top: 270px;
+  margin-right: 53px; }
+  @media (min-width: 1025px) {
+    body main .form-request .form2 {
+      margin-top: 178px;
+      margin-left: 48%;
+      width: 17%; } }
+  @media (min-width: 668px) and (max-width: 1024px) {
+    body main .form-request .form2 {
+      margin-top: 190px;
+      margin-left: 43%;
+      width: 29%; } }
+  body main .form-request .form2 .form-reques2 {
+    background-color: transparent;
+    border-color: #ffffff; }
     @media (min-width: 1025px) {
-      body main .form-request .diagnosis-free {
-        margin-top: 54px;
-        margin-left: 48%;
-        width: 18%;
-        text-align: left; } }
+      body main .form-request .form2 .form-reques2 {
+        height: 51px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
-      body main .form-request .diagnosis-free {
-        margin-top: 54px;
-        margin-left: 43%;
-        width: 30%;
-        text-align: left; } }
-  body main .form-request .form2 {
-    position: absolute;
-    margin-top: 270px;
-    margin-right: 53px; }
+      body main .form-request .form2 .form-reques2 {
+        height: 51px; } }
+  body main .form-request .form2 ::placeholder {
+    color: #FFFFFF; }
+  body main .form-request .form2 .btn-primary {
+    background-color: #F37421;
+    border-color: #F37421;
+    width: 100%; }
     @media (min-width: 1025px) {
-      body main .form-request .form2 {
-        margin-top: 178px;
-        margin-left: 48%;
-        width: 17%; } }
+      body main .form-request .form2 .btn-primary {
+        height: 51px; } }
     @media (min-width: 668px) and (max-width: 1024px) {
-      body main .form-request .form2 {
-        margin-top: 190px;
-        margin-left: 43%;
-        width: 29%; } }
-    body main .form-request .form2 .form-reques2 {
-      background-color: transparent;
-      border-color: #ffffff; }
-      @media (min-width: 1025px) {
-        body main .form-request .form2 .form-reques2 {
-          height: 51px; } }
-      @media (min-width: 668px) and (max-width: 1024px) {
-        body main .form-request .form2 .form-reques2 {
-          height: 51px; } }
-    body main .form-request .form2 ::placeholder {
-      color: #FFFFFF; }
-    body main .form-request .form2 .btn-primary {
-      background-color: #F37421;
-      border-color: #F37421;
-      width: 100%; }
-      @media (min-width: 1025px) {
-        body main .form-request .form2 .btn-primary {
-          height: 51px; } }
-      @media (min-width: 668px) and (max-width: 1024px) {
-        body main .form-request .form2 .btn-primary {
-          height: 51px; } }
+      body main .form-request .form2 .btn-primary {
+        height: 51px; } }

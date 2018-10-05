@@ -11,10 +11,15 @@ body {
                 width: 100%;
                 text-align: center;
                 @include breakpoint(desktop) {
-                    height: 620px;
+                    height: 800px;
                 }
                 @include breakpoint(tablet) {
                     height: 390px;
+                }
+                p:nth-child(1) {
+                    @include breakpoint(desktop) {
+                        padding-top: 173px;
+                    }
                 }
                 p {
                     color: #214A80;

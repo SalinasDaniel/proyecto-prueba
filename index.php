@@ -27,7 +27,7 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="contact">
-                        <h1><i class="fas fa-phone-volume"></i> 3173658826 <i class="fab fa-whatsapp"></i></h1>
+                        <h1><i class="fas fa-phone-volume"></i> 317&nbsp;365&nbsp;8826 <i class="fab fa-whatsapp"></i></h1>
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="description-headboard">
-                        <p class="text1">Hacemos sencillo el pago de impuestos y las gestion financiera de tu empresa</p>
+                        <p class="text1">Hacemos sencillo el pago de impuestos y la gestion financiera de tu empresa</p>
                         <hr>
                         <p><strong>No mas incertidumbre en tus finanzas ni en tu gestion contable</strong></p>
                     </div>
@@ -50,16 +50,16 @@
         </section>
     </header>
     <main>
-        <hr>
         <section class="services">
+            <hr>
             <div class="title">
-                <h3>Nuestro productos le permiten alcanzar el maximo beneficio financiero a tu empresa</h3>
+                <h3>Nuestro productos le permiten alcanzar <br> el maximo beneficio financiero a tu empresa</h3>
             </div>
             <div class="list-services">
                 <div class="row">
                     <div class="col-sm-3">
                         <img src="assets/images/servicio1.png" alt="Asesoria Financiera">
-                        <h6>Asesoria Financiera</h6>
+                        <h6>Asesoria <br> Financiera</h6>
                         <p>Incrementa y rentabiliza cada vez más los recursos financieros de la compañía.</p>
                     </div>
                     <div class="col-sm-3">
@@ -69,12 +69,12 @@
                     </div>
                     <div class="col-sm-3">
                         <img src="assets/images/servicio3.png" alt="Asesoria Tributaria">
-                        <h6>Asesoria Tributaria</h6>
+                        <h6>Asesoria <br> Tributaria</h6>
                         <p>Planeación tributaria que optimiza tu tiempo y tus recursos al máximo para que no pagues de más.</p>
                     </div>
                     <div class="col-sm-3">
                         <img src="assets/images/servicio4.png" alt="Asesoria Regimen Cambiario">
-                        <h6>Asesoria Regimen Cambiario</h6>
+                        <h6>Asesoria Regimen <br> Cambiario</h6>
                         <p>Realizamos la legalización obligatoria de las transacciones de divisas internacionales.</p>
                     </div>
                 </div>
@@ -82,16 +82,15 @@
         </section>
         <section class="request">
             <div class="description">
-                <p class="text1">Paga el menor monto posible de impuestos.</p>
-                <p class="text2">Evita multas y sanciones multimillonarias.</p>
+                <p><strong>Paga el menor monto<br> posible de impuestos</strong>.<br>Evita multas y sanciones<br> multimillonarias.</p>
                 <img src="assets/images/flecha.png" alt="Diagnostico Gratis">
                 <hr>
             </div>
             <div class="line-vertical">
             </div>
             <div class="form-request">
-                <h2>Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
-                <?php echo do_shortcode('[contact-form-7 id="58" title="Sin título"]'); ?>
+                <h2>Solicita hoy tu<br>diagnóstico <strong>gratis</strong></h2>	
+                
             </div>
             <canvas>
                 <h3>Su navegador no soporta canvas</h3>
@@ -100,10 +99,10 @@
         <section class="diagnosis">
             <div class="image">
                 <div class="text">
-                    <p>Precios bajos que se adaptan a todos los tamaños de empresa y presupuestos. Tomar buenas decisiones no cuesta más.</p>
+                    <p><strong>Precios bajos que se adaptan a todos los tamaños de empresa y presupuestos.</strong> Tomar buenas decisiones no cuesta más.</p>
                 </div>
                 <a href="#">
-                    <button type="button" class="btn btn-default">SOLICITAR DIAGNÓSTICO GRATUITO AHORA</button>
+                    <button type="button" class="btn btn-default"><strong>SOLICITAR DIAGNÓSTICO GRATUITO AHORA</strong></button>
                 </a>
             </div>
         </section>
@@ -112,7 +111,7 @@
                 <div class="col-sm-4">
                     <h6>Asesoría Integral</h6>
                     <hr>
-                    <p>Descubre cómo mejoran tus finanzas, <strong>el acompañamiento de nuestros expertos.</strong></p>
+                    <p><strong>Descubre cómo <br>mejoran tus finanzas,<br></strong> el acompañamiento de nuestros expertos.</p>
                     <a href="#">
                         <button type="button" class="btn btn-default">Conoce a fondo cómo te ayudamos</button>
                     </a>
@@ -124,13 +123,11 @@
             <div class="row row-2">
                 <div class="col-sm-4">
                     <img src="assets/images/asesoria1.png" alt="Asesoria">
-                    <p>Levantamiento y generación de informe.
-                    </p>
+                    <p>Levantamiento y generación de informe.</p>
                 </div>
                 <div class="col-sm-4">
                     <img src="assets/images/asesoria2.png" alt="Asesoria">
-                    <p>Formulación del plan de mejora continua.
-                    </p>
+                    <p>Formulación del plan de mejora continua.</p>
                 </div>
                 <div class="col-sm-4">
                     <img src="assets/images/asesoria3.png" alt="Asesoria">
@@ -174,7 +171,7 @@
         </section>
         <section class="contac-whats">
             <div class="background-whastapp">
-                <p>¿Tienes preguntas acerca del tema financiero? <br> Contacta GRATIS ahora con un asesor experto </p>
+                <p>¿Tienes preguntas acerca del tema financiero? <br> Contacta <strong>GRATIS</strong> ahora con un asesor experto </p>
                 <a href="#"><img src="assets/images/contactowhatsapp.png" alt="Whatsapp"></a>
                 <p><label>O llama al</label> 847 0737</p>
             </div>
@@ -189,7 +186,7 @@
                         </div>
                         <div class="description">
                             <h6>ANYELA PARRA</h6>
-                            <p>Contador Público / Universidad de la Salle. Experiencia de más de dos año en procesos de NIIF, elaboración de políticas contables. Implementación y asesoría de Normas Internacionales de Información Financiera.</p>
+                            <p><strong>Contador Público / Universidad de la Salle.</strong> <br> Experiencia de más de dos año en procesos de NIIF, elaboración de políticas contables. <br><strong>Implementación y asesoría de Normas Internacionales de Información Financiera.</strong></p>
                         </div>
                     </div>
                 </div>
@@ -200,7 +197,7 @@
                         </div>
                         <div class="description">
                             <h6>SORAYA SANCHEZ</h6>
-                            <p>Especialista en Contabilidad Financiera Internacional / Pontificia Universidad Javeriana. Estudios sobre Normas Internacionales de Contabilidad / Southerastern Lousiana University Contador Público / Universidad Libre de Colombia.
+                            <p><strong>Especialista en Contabilidad Financiera Internacional / Pontificia Universidad Javeriana. <br></strong>Estudios sobre Normas Internacionales de Contabilidad / Southerastern Lousiana University<br> Contador<strong> Público / Universidad Libre de Colombia.<br></strong>
                                 Consultor SAP Business One / SAP Global.</p>
                         </div>
                     </div>
@@ -212,7 +209,7 @@
                         </div>
                         <div class="description">
                             <h6>ANDRA SANCHEZ</h6>
-                            <p>Ingeniero de Sistemas / Universidad Libre de Colombia. Master en Diseño y Gestión de Proyectos Tecnológicos / Universidad Internacional de la Rioja (UNIR)- España. Consultor SAP Business One / SAP Global. Técnica profesional
+                            <p><strong>Ingeniero de Sistemas / Universidad Libre de Colombia.<br></strong> Master en Diseño y Gestión de Proyectos Tecnológicos / Universidad Internacional de la Rioja (UNIR)- España.<br><strong> Consultor SAP Business One / SAP Global.</strong><br> Técnica profesional
                                 en Gestión Contable y Financiera / Servicio Nacional de Aprendizaje SENA.</p>
                         </div>
                     </div>
@@ -226,7 +223,7 @@
                         </div>
                         <div class="description">
                             <h6>FERNANDO BAENA</h6>
-                            <p>Especialista en Contabilidad Financiera Internacional / Pontificia Universidad Javeriana Especialista en Impuestos y Planeación Tributaria/ Universidad Libre de Colombia Contador Público / Universidad Católica de Oriente Contador
+                            <p><strong>Especialista en Contabilidad Financiera Internacional / Pontificia Universidad Javeriana</strong><br> Especialista en Impuestos y Planeación Tributaria/ Universidad Libre de Colombia<br> <strong>Contador Público / Universidad Católica de Oriente</strong><br> Contador
                                 público con experiencia de más de 12 años.</p>
                         </div>
                     </div>
@@ -238,15 +235,16 @@
                         </div>
                         <div class="description">
                             <h6>ANDRÉS BERNAL</h6>
-                            <p>Ingeniero Industrial / Universidad Distrital de Colombia Master en Diseño y Gestión de Proyectos Tecnológicos / Universidad Internacional de la Rioja (UNIR)-España Director de Proyectos TIC PMP 1910368 Consultor SAP Business
-                                One / SAP Globa</p>
+                            <p><strong>Ingeniero Industrial / Universidad Distrital de Colombia</strong><br> Master en Diseño y Gestión de Proyectos Tecnológicos / Universidad Internacional de la Rioja (UNIR)-España<br> <strong>Director de Proyectos TIC PMP 1910368</strong><br> Consultor SAP Business
+                                One / SAP Global</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="content">
                         <div class="description-alianze">
-                            <p>SOMOS EL ALIADO <br> QUE APOYA TU <br> ENTENDIMIENTO FINANCIERO</p>
+                            <br><br>
+                            <p>SOMOS EL<br><br>ALIADO QUE<br><br><strong> APOYA TU<br><br>ENTENDIMIENTO<br><br>FINANCIERO<strong></p>
                         </div>
                         <div class="alliance">
                             <img src="assets/images/logoalinazaasys.png" alt="Alianza">
@@ -268,7 +266,7 @@
             </div>
             <div class="form-request">
                 <h2 class="diagnosis-free">Solicita hoy tu diagnóstico <strong>gratis</strong></h2>
-                <?php echo do_shortcode('[contact-form-7 id="58" title="Sin título"]'); ?>
+                
             </div>
             <canvas>
                     <h3>Su navegador no soporta canvas</h3>

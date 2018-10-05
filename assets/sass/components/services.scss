@@ -1,19 +1,31 @@
 body {
     main {
-        hr {
-            width: 85%;
-        }
         .services {
-            .title {
-                color: #05283C;
-                margin-left: 7%;
+            hr {
+                width: 85%;
+                margin-top: 70px;
                 @include breakpoint(desktop) {
-                    margin-left: 20%;
-                    margin-top: 152px;
+                    margin-top: 130px;
                 }
                 @include breakpoint(tablet) {
-                    margin-left: 20%;
-                    margin-top: 152px;
+                    margin-top: 130px;
+                }
+            }
+            .title {
+                color: #05283C;
+                padding-left: 14%;
+                padding-right: 14%;
+                margin-top: 70px;
+                text-align: center;
+                @include breakpoint(desktop) {
+                    margin-left: 21%;
+                    margin-top: 180px;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                @include breakpoint(tablet) {
+                    padding-left: 4%;
+                    padding-right: 4%;
                 }
                 h3 {
                     font-size: 18px;
@@ -26,7 +38,6 @@ body {
                     @include breakpoint(tablet) {
                         font-size: 32px;
                         text-align: center;
-                        width: 83%;
                     }
                 }
             }
@@ -38,9 +49,12 @@ body {
                 }
                 @include breakpoint(tablet) {
                     margin-top: 100px;
+                    padding-left: 4%;
+                    padding-right: 4%;
                 }
                 .row {
                     margin-right: 0;
+                    color: #000000;
                     @include breakpoint(desktop) {
                         width: 70%;
                         margin-left: 13%;
@@ -55,28 +69,22 @@ body {
                         }
                         h6 {
                             font-size: 22px;
-                            width: 50%;
-                            margin-left: 25%;
-                            @include breakpoint(desktop) {
-                                width: 79%;
-                                margin-left: 13%;
-                            }
-                            @include breakpoint(tablet) {
-                                width: 78%;
-                                margin-left: 13%;
-                            }
+                            font-weight: bold;
+                            margin-top: 21px;
                         }
                         p {
-                            font-size: 12px;
-                            width: 50%;
-                            margin-left: 25%;
+                            padding-left: 14%;
+                            padding-right: 14%;
+                            margin-top: 30px;
                             @include breakpoint(desktop) {
-                                width: 82%;
-                                margin-left: 13%;
+                                padding-left: 19%;
+                                padding-right: 19%;
+                                font-size: 12px;
                             }
                             @include breakpoint(tablet) {
-                                width: 82%;
-                                margin-left: 13%;
+                                padding-left: 0%;
+                                padding-right: 0%;
+                                font-size: 12px;
                             }
                         }
                     }
