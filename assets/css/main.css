@@ -958,6 +958,14 @@ body main .request2 {
         margin-top: 218px;
         padding-left: 60%;
         padding-right: 13%; } }
+    body main .request2 .form-request2 .form2 .form-second .form-control {
+      border-color: #000000; }
+      @media (min-width: 1025px) {
+        body main .request2 .form-request2 .form2 .form-second .form-control {
+          height: 51px; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .request2 .form-request2 .form2 .form-second .form-control {
+          height: 51px; } }
     body main .request2 .form-request2 .form2 .form-second .form-reques2 {
       background-color: transparent;
       border-color: #ffffff; }
@@ -967,8 +975,6 @@ body main .request2 {
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .request2 .form-request2 .form2 .form-second .form-reques2 {
           height: 51px; } }
-    body main .request2 .form-request2 .form2 .form-second ::placeholder {
-      color: #FFFFFF; }
     body main .request2 .form-request2 .form2 .form-second .btn-primary {
       background-color: #F37421;
       border-color: #F37421;

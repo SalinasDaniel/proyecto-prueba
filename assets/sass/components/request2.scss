@@ -168,6 +168,15 @@ body {
                             padding-left: 60%;
                             padding-right: 13%;
                         }
+                        .form-control {
+                            border-color: #000000;
+                            @include breakpoint(desktop) {
+                                height: 51px;
+                            }
+                            @include breakpoint(tablet) {
+                                height: 51px;
+                            }
+                        }
                         .form-reques2 {
                             background-color: transparent;
                             border-color: #ffffff;
@@ -177,9 +186,6 @@ body {
                             @include breakpoint(tablet) {
                                 height: 51px;
                             }
-                        }
-                         ::placeholder {
-                            color: #FFFFFF;
                         }
                         .btn-primary {
                             background-color: #F37421;
