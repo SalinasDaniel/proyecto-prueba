@@ -1,0 +1,109 @@
+body {
+    main {
+        .modal {
+            background-color: #000000;
+            opacity: .95;
+            padding-top: 21%;
+            padding-bottom: 25%;
+            padding-left: 6%;
+            padding-right: 6%;
+            @include breakpoint(desktop) {
+                padding-left: 14%;
+                padding-right: 14%;
+                padding-top: 8%;
+                padding-bottom: 4%;
+            }
+            @include breakpoint(tablet) {
+                padding-left: 7%;
+                padding-right: 7%;
+                padding-top: 31%;
+                padding-bottom: 38%;
+            }
+            .modal-content {
+                box-shadow: 9px 11px 7px 0 rgba(105, 99, 99, 0.19);
+                background-color: #0064EF;
+                padding-left: 9%;
+                padding-right: 5%;
+                padding-bottom: 4%;
+                padding-top: 3%;
+                border: 1px solid #FFFFFF;
+                border-radius: 21px;
+                @include breakpoint(tablet) {
+                    padding-left: 7%;
+                    padding-right: 0%;
+                }
+                span {
+                    color: #FFFFFF;
+                    font-size: 38px;
+                }
+                h2 {
+                    color: #FFFFFF;
+                    @include breakpoint(phone) {
+                        font-size: 22px;
+                    }
+                    @include breakpoint(tablet) {
+                        margin-bottom: 27px;
+                    }
+                }
+                .btn-primary {
+                    background-color: #F37421;
+                    border-color: #F37421;
+                    width: 100%;
+                    height: 54px;
+                    margin-bottom: 16px;
+                    @include breakpoint(desktop) {
+                        margin-bottom: 0;
+                    }
+                }
+                .btn-primary:hover {
+                    background-color: #FFFFFF;
+                    border-color: #F37421;
+                    color: #F37421;
+                }
+                .row {
+                    .col-sm-6 {
+                        p {
+                            margin-top: 4%;
+                            font-size: 19px;
+                            color: #FFFFFF;
+                            @include breakpoint(desktop) {
+                                font-size: 28px;
+                                padding-top: 11%;
+                            }
+                            @include breakpoint(tablet) {
+                                font-size: 28px;
+                                padding-top: 11%;
+                            }
+                        }
+                        img {
+                            display: none;
+                            @include breakpoint(desktop) {
+                                display: block;
+                                padding-left: 20%
+                            }
+                            @include breakpoint(tablet) {
+                                display: block;
+                                padding-left: 20%
+                            }
+                        }
+                        form {
+                            .form-control {
+                                margin-bottom: -40px;
+                            }
+                        }
+                    }
+                    .col-sm-6:nth-child(2) {
+                        padding-left: 10%;
+                        padding-right: 11%;
+                        @include breakpoint(desktop) {
+                            border-left: 1px solid #FFFFFF;
+                        }
+                        @include breakpoint(tablet) {
+                            border-left: 1px solid #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

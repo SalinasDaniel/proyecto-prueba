@@ -37,7 +37,7 @@ body {
                             font-size: 32px;
                         }
                         @include breakpoint(tablet) {
-                            font-size: 23px;
+                            font-size: 20px;
                         }
                     }
                     a {
@@ -51,6 +51,7 @@ body {
                             @include breakpoint(tablet) {
                                 font-size: 18px;
                                 margin-left: 5%;
+                                white-space: normal;
                             }
                             @include breakpoint(desktop) {
                                 font-size: 18px;
@@ -70,7 +71,7 @@ body {
                     img {
                         margin-top: 25px;
                         width: 100%;
-                        margin-left: 5%;
+                        margin-left: 3%;
                         @include breakpoint(desktop) {
                             margin-top: 168px;
                             margin-left: 12%;
@@ -119,6 +120,10 @@ body {
                             margin-top: 13px;
                             margin-left: 15%;
                         }
+                        @include breakpoint(tablet) {
+                            margin-left: 8%;
+                            margin-right: 6%;
+                        }
                     }
                 }
                 .col-sm-4:nth-child(3) {
@@ -144,7 +149,10 @@ body {
                     margin-top: -28px;
                 }
                 @include breakpoint(tablet) {
-                    font-size: 23px;
+                    white-space: normal;
+                    font-size: 27px;
+                    width: 51%;
+                    border-radius: 14px;
                 }
             }
             .btn-default:hover {

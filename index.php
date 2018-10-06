@@ -114,8 +114,9 @@
                 </div>
                 <button type="button" id="myBtn" class="btn btn-default"><strong>SOLICITAR DIAGNÓSTICO GRATUITO AHORA</strong></button>
             </div>
-            <div class="popup">
-                <div id="myModal" class="modal">
+        </section>
+        <section class="popup">
+                <div id="myModal" class="modal" style="overflow-y: auto;" >
                     <div class="modal-content">
                         <span class="close">&times;</span>
                         <div class="row">
@@ -141,7 +142,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
         <section class="comprehensive-advice">
             <div class="row row-1">
