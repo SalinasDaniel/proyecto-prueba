@@ -38,11 +38,16 @@ body {
                 }
                 h2 {
                     color: #FFFFFF;
+                    text-align: center;
                     @include breakpoint(phone) {
                         font-size: 22px;
                     }
                     @include breakpoint(tablet) {
                         margin-bottom: 27px;
+                        text-align: left;
+                    }
+                    @include breakpoint(desktop) {
+                        text-align: left;
                     }
                 }
                 .btn-primary {
@@ -88,7 +93,14 @@ body {
                         }
                         form {
                             .form-control {
-                                margin-bottom: -40px;
+                                width: 79%;
+                                position: absolute;
+                                @include breakpoint(desktop) {
+                                    width: 58%;
+                                }
+                                @include breakpoint(tablet) {
+                                    width: 58%;
+                                }
                             }
                         }
                     }

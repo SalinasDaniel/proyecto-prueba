@@ -965,13 +965,18 @@ body main .modal {
       color: #FFFFFF;
       font-size: 38px; }
     body main .modal .modal-content h2 {
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      text-align: center; }
       @media (max-width: 667px) {
         body main .modal .modal-content h2 {
           font-size: 22px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
         body main .modal .modal-content h2 {
-          margin-bottom: 27px; } }
+          margin-bottom: 27px;
+          text-align: left; } }
+      @media (min-width: 1025px) {
+        body main .modal .modal-content h2 {
+          text-align: left; } }
     body main .modal .modal-content .btn-primary {
       background-color: #F37421;
       border-color: #F37421;
@@ -1008,7 +1013,14 @@ body main .modal {
           display: block;
           padding-left: 20%; } }
     body main .modal .modal-content .row .col-sm-6 form .form-control {
-      margin-bottom: -40px; }
+      width: 79%;
+      position: absolute; }
+      @media (min-width: 1025px) {
+        body main .modal .modal-content .row .col-sm-6 form .form-control {
+          width: 58%; } }
+      @media (min-width: 668px) and (max-width: 1024px) {
+        body main .modal .modal-content .row .col-sm-6 form .form-control {
+          width: 58%; } }
     body main .modal .modal-content .row .col-sm-6:nth-child(2) {
       padding-left: 10%;
       padding-right: 11%; }
