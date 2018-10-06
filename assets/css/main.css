@@ -982,7 +982,9 @@ body main .modal {
       border-color: #F37421;
       width: 100%;
       height: 54px;
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      position: relative;
+      margin-top: 54px; }
       @media (min-width: 1025px) {
         body main .modal .modal-content .btn-primary {
           margin-bottom: 0; } }
@@ -1012,15 +1014,23 @@ body main .modal {
         body main .modal .modal-content .row .col-sm-6 img {
           display: block;
           padding-left: 20%; } }
-    body main .modal .modal-content .row .col-sm-6 form .form-control {
-      width: 79%;
-      position: absolute; }
+    body main .modal .modal-content .row .col-sm-6 form {
+      margin-top: -42px; }
       @media (min-width: 1025px) {
-        body main .modal .modal-content .row .col-sm-6 form .form-control {
-          width: 58%; } }
+        body main .modal .modal-content .row .col-sm-6 form {
+          margin-top: -63px; } }
       @media (min-width: 668px) and (max-width: 1024px) {
-        body main .modal .modal-content .row .col-sm-6 form .form-control {
-          width: 58%; } }
+        body main .modal .modal-content .row .col-sm-6 form {
+          margin-top: -83px; } }
+      body main .modal .modal-content .row .col-sm-6 form .form-control {
+        width: 79%;
+        position: absolute; }
+        @media (min-width: 1025px) {
+          body main .modal .modal-content .row .col-sm-6 form .form-control {
+            width: 58%; } }
+        @media (min-width: 668px) and (max-width: 1024px) {
+          body main .modal .modal-content .row .col-sm-6 form .form-control {
+            width: 58%; } }
     body main .modal .modal-content .row .col-sm-6:nth-child(2) {
       padding-left: 10%;
       padding-right: 11%; }
